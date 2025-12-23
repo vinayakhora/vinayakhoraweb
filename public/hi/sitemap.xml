@@ -54,31 +54,8 @@
                 href="http://localhost:1313/hi/policy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/hi/post/</loc>
-    <lastmod>2025-12-23T14:03:32+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/post/"
-                />
-  </url><url>
     <loc>http://localhost:1313/hi/post/my-first-post/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/post/my-first-post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/post/my-first-post/"
-                />
   </url><url>
     <loc>http://localhost:1313/hi/categories/</loc>
     <xhtml:link

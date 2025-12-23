@@ -1,5 +1,5 @@
 +++
-date = '2025-12-23T14:03:32+05:30'
+date = '2025-12-24T01:03:32+05:30'
 draft = false
 title = 'A Journey Around the World!'
 thumbnail= "images/ganesha_circle_around_parents.png"
