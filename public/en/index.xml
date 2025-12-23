@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ens on My New Hugo Site</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Ens on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Dec 2025 22:28:56 +0530</lastBuildDate><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Tue, 23 Dec 2025 22:28:56 +0530</pubDate>
+      
+      <guid>http://localhost:1313/en/about/</guid>
+      
+        <description>&lt;p&gt;About Page!&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>A Journey Around the World!</title>
+      <link>http://localhost:1313/en/post/my-first-post/</link>
+      <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
+      
+      <guid>http://localhost:1313/en/post/my-first-post/</guid>
+      
+        <description>&lt;p&gt;On &lt;strong&gt;Mount Kailasa&lt;/strong&gt;, the divine abode of Lord Shiva and Goddess Parvati, their two sons—&lt;strong&gt;Kartikeya&lt;/strong&gt; and &lt;strong&gt;Ganesha&lt;/strong&gt;—grew under the watchful presence of the gods.&lt;/p&gt;
+&lt;p&gt;One day, a friendly challenge arose between the brothers. To determine who was wiser, Lord Shiva proposed a test.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;“The one who can travel around the entire world and return first shall be considered the most knowledgeable.”&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Without hesitation, Kartikeya mounted his peacock and set off at great speed. He flew across mountains and oceans, forests and kingdoms, circling the vast earth with determination and strength.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

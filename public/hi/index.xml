@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>विनायक होरा</title>
+    <link>http://localhost:1313/hi/</link>
+    <description>Recent content on विनायक होरा</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hi</language>
+    <lastBuildDate>Tue, 23 Dec 2025 22:29:21 +0530</lastBuildDate><atom:link href="http://localhost:1313/hi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/hi/contact/</link>
+      <pubDate>Tue, 23 Dec 2025 22:29:21 +0530</pubDate>
+      
+      <guid>http://localhost:1313/hi/contact/</guid>
+      
+        <description>&lt;p&gt;Contact Page!&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/hi/about/</link>
+      <pubDate>Tue, 23 Dec 2025 22:28:56 +0530</pubDate>
+      
+      <guid>http://localhost:1313/hi/about/</guid>
+      
+        <description>&lt;p&gt;About Page!&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>गोपनीयता नीति</title>
+      <link>http://localhost:1313/hi/policy/</link>
+      <pubDate>Tue, 23 Dec 2025 22:23:49 +0530</pubDate>
+      
+      <guid>http://localhost:1313/hi/policy/</guid>
+      
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;अंतिम अपडेट:&lt;/strong&gt; 27 नवंबर 2025&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;लेखक / डेवलपर:&lt;/strong&gt; राम मोहन कपिल&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>दुनिया की परिक्रमा की एक अद्भुत यात्रा!</title>
+      <link>http://localhost:1313/hi/post/my-first-post/</link>
+      <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
+      
+      <guid>http://localhost:1313/hi/post/my-first-post/</guid>
+      
+        <description>&lt;p&gt;&lt;strong&gt;माउंट कैलाश&lt;/strong&gt; पर, जो भगवान शिव और देवी पार्वती का दिव्य धाम है, उनके दो पुत्र—&lt;strong&gt;कार्तिकेय&lt;/strong&gt; और &lt;strong&gt;गणेश&lt;/strong&gt;—देवताओं की साक्षी में बड़े हो रहे थे।&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

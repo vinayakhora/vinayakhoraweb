@@ -1,0 +1,16 @@
+[en]
+title = "Vinayak Hora"
+weight = 1
+LanguageName = "EN"
+contentDir = "content/en"
+
+[hi]
+title = "विनायक होरा"
+contentDir = "content/hi"
+weight = 2
+#LanguageDirection = "rtl"
+LanguageName = "HN"
+[hi.params]
+description = "वैदिक ज्योतिष"
+author = "राम मोहन कपिल"
+title = "विनायक होरा"
