@@ -16,6 +16,8 @@ description = "वैदिक ज्योतिष"
 author = "राम मोहन कपिल"
 title = "विनायक होरा"
 img = "images/GetItOnGooglePlay_Badge_Web_color.png"
+youtubeIcon = "images/yt_icon_red_digital.png"
 
 [en.params]
 img = "images/GetItOnGooglePlay_Badge_Web_color.png"
+
