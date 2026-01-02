@@ -1,0 +1,43 @@
+-Create a new post -
+===================
+Command : 
+
+hugo new content content/en/posts/my-first-post.md   [this will create eng post, for each eng post
+
+1. you have to have hindi post also, which is to be placed in content/hi folder]  
+
+2. static pages has to be kept in content/post/en folder (hind in post/hi folder)
+
+3. whenever you create a new post, it's header will have status as draft (draft = true), 
+that you will have to change to "true"
+
+modify content
+===============
+
+start hugo server - hugo server -D                    [-D will include draft post also]
+output of the above command will give the url using which you can see the site.  make change to content
+and see the change on the site.
+
+config site
+=============
+hugo.toml is the main config file, where you specify template etc.
+
+to publishe :
+===============
+1. you have to generate with command - 
+hugo     [only this one word command]
+
+When you publish your site, Hugo creates the entire static site in the public directory 
+in the root of your project
+
+2. I think, next you have to simply plublish on github and it will be automatically published.
+
+template change
+================
+
+whenever you need to change content on the template pages such as the home page left side panel,
+you have to modify the template itself.
+for that - 
+
+
+

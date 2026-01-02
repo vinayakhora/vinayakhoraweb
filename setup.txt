@@ -1,0 +1,12 @@
+to setup your hugo website project on a new system, follow these steps - 
+
+0. download hugo installer from hugo website and complete the installation.
+use "extended" prebuilt binary.
+
+1. clone the repo on github.com on the local folder.
+git clone <clone url from github.com repo>
+
+2. clone the hugo template "anatole"
+from the "themes" folder give following command -
+git clone https://github.com/lxndrblz/anatole.git
+
