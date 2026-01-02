@@ -15,9 +15,10 @@ LanguageName = "HN"
 description = "वैदिक ज्योतिष"
 author = "राम मोहन कपिल"
 title = "विनायक होरा"
-img = "images/GetItOnGooglePlay_Badge_Web_color.png"
-youtubeIcon = "images/yt_icon_red_digital.png"
+
+ytMessage = "यूट्यूब पर सब्सक्राइब करें"
 
 [en.params]
-img = "images/GetItOnGooglePlay_Badge_Web_color.png"
+
+ytMessage = "Subscribe on YouTube"
 
