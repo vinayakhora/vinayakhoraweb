@@ -1,0 +1,59 @@
+<div class="sidebar{{ with .Site.Params.doNotLoadAnimations }}
+    .
+  {{ else }}
+    animated fadeInDown
+  {{ end }}">
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img class="sidebar__introduction-profileimage" src="{{ .Site.Params.profilePicture | relURL }}"
+        alt="profile picture" />
+
+
+      {{ if .IsHome }}
+      <div class="sidebar__introduction-title">
+        <h1>
+          <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Title }}</a>
+        </h1>
+
+      </div>
+      {{ else }}
+      <div class="sidebar__introduction-title">
+        <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Title }}</a>
+
+      </div>
+      {{ end }}
+      <div class="sidebar__introduction-description">
+        <p>{{ replace .Site.Params.description "\n" "<br />" | safeHTML }}</p>
+
+
+        <a href='https://play.google.com/store/apps/details?id=com.vinayakhora.vinayak_hora' target='_blank'>
+          <img src="{{.Site.Params.img}}" alt="profile picture" style="width: 30%; height: auto;" />
+        </a>
+        <br>     
+
+        <a href="https://www.youtube.com/@VinayakHora?sub_confirmation=1" target="_blank">
+
+          <img src="{{.Site.Params.youtubeIcon}}" alt="YouTube" style="width: 10%; height: auto; margin-top: 10px;">
+          <br> <span>Subscribe on YouTube</span>
+        </a> 
+
+      </div>
+
+
+
+
+
+    </div>
+    <ul class="sidebar__list">
+      {{ range $item := .Site.Params.socialIcons }}
+      <li class="sidebar__list-item">
+        <a href="{{ $item.url }}" target="_blank" rel="noopener me" aria-label="{{ $item.title }}"
+          title="{{ $item.title }}">
+          <i class="{{ $item.icon }} fa-2x" aria-hidden="true"></i>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{- partial "footer.html" (dict "context" . "footerClassModifier" "sidebar") -}}
+</div>
