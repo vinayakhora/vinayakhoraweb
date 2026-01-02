@@ -1,3 +1,17 @@
+under config\_default dir,
+you have all config files...
+params.toml has all the site parameters
+languages.toml has language specific settings and parameters
+
+under themes\anatole\layout\partials... you have partial html code for each block of the page stru
+e.g. left side bar code is in sidebar.html.  
+now in these partials - you can use parameters defined in parameters files.  if the parameter 
+is defined at language level config file, then it will be picked up otherwise, higher level (hugo.toml)
+
+for path, if you add "| relLangURL", then language level directory stru is taken... check 
+how you have used it for youtube icon and google play icons.
+
+
 -Create a new post -
 ===================
 Command : 
@@ -30,7 +44,7 @@ hugo     [only this one word command]
 When you publish your site, Hugo creates the entire static site in the public directory 
 in the root of your project
 
-2. I think, next you have to simply plublish on github and it will be automatically published.
+2. You have to simply plublish on github and it will be automatically published.
 
 template change
 ================
