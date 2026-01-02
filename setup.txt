@@ -6,9 +6,9 @@ use "extended" prebuilt binary.
 1. clone the repo on github.com on the local folder.
 git clone <clone url from github.com repo>
 
-2. clone the hugo template "anatole"
-from the "themes" folder give following command -
-git clone https://github.com/lxndrblz/anatole.git
+2. theme :
+I am using anatole hugo theme.  but I have customized it and disconnected it from its original
+github repo.  now it reside in my project as a normal directory.
 
 to configure this theme, see the documentation - 
 https://github.com/lxndrblz/anatole/wiki    [link available on the thems download page (github), 
