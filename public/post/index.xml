@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Vinayak Hora</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://www.vinayakhora.in/post/</link>
     <description>Recent content in Posts on Vinayak Hora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Dec 2025 01:03:32 +0530</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Dec 2025 01:03:32 +0530</lastBuildDate><atom:link href="https://www.vinayakhora.in/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Journey Around the World!</title>
-      <link>http://localhost:1313/post/my-first-post/</link>
+      <link>https://www.vinayakhora.in/post/my-first-post/</link>
       <pubDate>Wed, 24 Dec 2025 01:03:32 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/my-first-post/</guid>
+      <guid>https://www.vinayakhora.in/post/my-first-post/</guid>
       
         <description>&lt;p&gt;On &lt;strong&gt;Mount Kailasa&lt;/strong&gt;, the divine abode of Lord Shiva and Goddess Parvati, their two sons—&lt;strong&gt;Kartikeya&lt;/strong&gt; and &lt;strong&gt;Ganesha&lt;/strong&gt;—grew under the watchful presence of the gods.&lt;/p&gt;</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Why Lord Ganesha Is Worshipped First — A Vedic Perspective</title>
-      <link>http://localhost:1313/post/ganesha-first-lord/</link>
+      <link>https://www.vinayakhora.in/post/ganesha-first-lord/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/ganesha-first-lord/</guid>
+      <guid>https://www.vinayakhora.in/post/ganesha-first-lord/</guid>
       
         <description>A strictly Vedic explanation of why Lord Ganesha is considered first among all gods, with citations from classical Sanskrit texts.</description>
       

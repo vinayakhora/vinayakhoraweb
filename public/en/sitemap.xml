@@ -2,154 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/my-first-post/</loc>
+    <loc>https://www.vinayakhora.in/post/my-first-post/</loc>
     <lastmod>2025-12-24T01:03:32+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/post/my-first-post/"
+                href="https://www.vinayakhora.in/hi/post/my-first-post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/my-first-post/"
+                href="https://www.vinayakhora.in/post/my-first-post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://www.vinayakhora.in/post/</loc>
     <lastmod>2025-12-24T01:03:32+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/post/"
+                href="https://www.vinayakhora.in/hi/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/"
+                href="https://www.vinayakhora.in/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.vinayakhora.in/</loc>
     <lastmod>2025-12-24T01:03:32+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/"
+                href="https://www.vinayakhora.in/hi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://www.vinayakhora.in/"
                 />
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://www.vinayakhora.in/contact/</loc>
     <lastmod>2025-12-23T22:29:21+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/contact/"
+                href="https://www.vinayakhora.in/hi/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/contact/"
+                href="https://www.vinayakhora.in/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.vinayakhora.in/about/</loc>
     <lastmod>2025-12-23T22:28:56+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/about/"
+                href="https://www.vinayakhora.in/hi/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="https://www.vinayakhora.in/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/policy/</loc>
+    <loc>https://www.vinayakhora.in/policy/</loc>
     <lastmod>2025-12-23T22:23:49+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/policy/"
+                href="https://www.vinayakhora.in/hi/policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/policy/"
+                href="https://www.vinayakhora.in/policy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/brahmanaspati/</loc>
+    <loc>https://www.vinayakhora.in/tags/brahmanaspati/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.vinayakhora.in/categories/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/categories/"
+                href="https://www.vinayakhora.in/hi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://www.vinayakhora.in/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/ganesha/</loc>
+    <loc>https://www.vinayakhora.in/tags/ganesha/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hindu-philosophy/</loc>
+    <loc>https://www.vinayakhora.in/tags/hindu-philosophy/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/indic-studies/</loc>
+    <loc>https://www.vinayakhora.in/categories/indic-studies/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rig-veda/</loc>
+    <loc>https://www.vinayakhora.in/tags/rig-veda/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.vinayakhora.in/tags/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/tags/"
+                href="https://www.vinayakhora.in/hi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://www.vinayakhora.in/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/theology/</loc>
+    <loc>https://www.vinayakhora.in/categories/theology/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vedas/</loc>
+    <loc>https://www.vinayakhora.in/tags/vedas/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/ganesha-first-lord/</loc>
+    <loc>https://www.vinayakhora.in/post/ganesha-first-lord/</loc>
     <lastmod>2025-12-23T14:03:32+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/post/ganesha-first-lord/"
+                href="https://www.vinayakhora.in/hi/post/ganesha-first-lord/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/ganesha-first-lord/"
+                href="https://www.vinayakhora.in/post/ganesha-first-lord/"
                 />
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://www.vinayakhora.in/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/series/"
+                href="https://www.vinayakhora.in/hi/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://www.vinayakhora.in/series/"
                 />
   </url>
 </urlset>
