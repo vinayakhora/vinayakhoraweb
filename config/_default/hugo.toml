@@ -39,7 +39,7 @@ enable = true
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
 
-[taxonomies]
+[taxonomies] 
     category = "categories"
     series = "series"
     tag = "tags"
