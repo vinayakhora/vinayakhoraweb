@@ -4,6 +4,8 @@ author = "Ram Mohan Kapil"
 #copyright = "2020-2021"
 description = "Vedic Astrology"
 profilePicture = "images/logo.png"
+youtubeIcon = "images/yt_icon_red_digital.png"
+#customText = "<a href='https://play.google.com/store/apps/details?id=com.vinayakhora.vinayak_hora' target='_blank'>https://play.google.com/store/apps/details?id=com.vinayakhora.vinayak_hora</a>"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -59,12 +61,13 @@ contentratio = 0.6
 ## Social links
 # use 'fa-brands' when brand icons, use 'fas' when standard solid icons.
 #[[socialIcons]]
-#icon = "fa-brands fa-linkedin"
-#title = "Linkedin"
-#url = "https://de.linkedin.com/"
+#icon = "images/GetItOnGooglePlay_Badge_Web_color_English.png"
+#icon = "fab fa-google-play"
+#title = "Google Play Store"
+#url = "https://play.google.com/store/apps/details?id=com.vinayakhora.vinayak_hora"
 
 #[[socialIcons]]
-#icon = "fa-brands fa-github"
+#icon = "fa-brands fa-youtube"
 #title = "GitHub"
 #url = "https://github.com/lxndrblz/anatole/"
 

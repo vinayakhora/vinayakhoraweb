@@ -10,3 +10,8 @@ git clone <clone url from github.com repo>
 from the "themes" folder give following command -
 git clone https://github.com/lxndrblz/anatole.git
 
+to configure this theme, see the documentation - 
+https://github.com/lxndrblz/anatole/wiki    [link available on the thems download page (github), 
+documentation section ]
+
+
