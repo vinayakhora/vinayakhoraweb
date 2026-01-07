@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on विनायक होरा</title>
-    <link>https://www.vinayakhora.in/hi/series/</link>
+    <link>http://localhost:1313/hi/series/</link>
     <description>Recent content in Series on विनायक होरा</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>hi</language><atom:link href="https://www.vinayakhora.in/hi/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>hi</language><atom:link href="http://localhost:1313/hi/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

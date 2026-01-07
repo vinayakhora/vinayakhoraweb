@@ -11,16 +11,25 @@
   url = "/hi/post/"
 
   [[main]]
-  name = "परिचय"
+  name = "मोबाईल ऐप"
   weight = 300
   identifier = "about"
   url = "/hi/about/"
+
+
 
   [[main]]
   name = "संपर्क विधि"
   weight = 400
   identifier = "contact"
   url = "/hi/contact/"
+
+  [[main]]
+  name = "मेरे बारे में"
+  weight = 700
+  identifier = "about-me"
+  url = "/hi/about-me/"
+
 
   [[footer]]
   name = "गोपनीयता नीति"
