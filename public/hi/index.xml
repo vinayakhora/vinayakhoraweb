@@ -8,14 +8,35 @@
     <language>hi</language>
     <lastBuildDate>Wed, 07 Jan 2026 14:04:11 +0530</lastBuildDate><atom:link href="http://localhost:1313/hi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>मेरे बारे में</title>
+      <title></title>
       <link>http://localhost:1313/hi/about-me/</link>
       <pubDate>Wed, 07 Jan 2026 14:04:11 +0530</pubDate>
       
       <guid>http://localhost:1313/hi/about-me/</guid>
       
-        <description>&lt;p&gt;&lt;strong&gt;ॐ श्री गणेशाय नमः!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;मेरा नाम &lt;strong&gt;राम मोहन कपिल&lt;/strong&gt; है। मेरा जन्म &lt;strong&gt;कपिल गोत्र&lt;/strong&gt; के एक ब्राह्मण परिवार में हुआ। मेरे दादा जी अत्यंत आध्यात्मिक व्यक्तित्व के धनी थे और भगवान श्रीराम की कृपा में संतोषपूर्वक जीवन व्यतीत करते थे। उन्हीं की प्रेरणा से मुझे &lt;em&gt;“राम”&lt;/em&gt; नाम मिला, ताकि यह दिव्य नाम अधिक से अधिक जपा और स्मरण किया जाए। मेरी दादी जी भी अत्यंत आध्यात्मिक थीं। उनके जीवन-मूल्यों और संस्कारों ने मेरे भीतर आध्यात्मिकता के प्रथम बीज बोए।&lt;/p&gt;</description>
+        <description>&lt;style&gt;
+circle-photo {
+    /* Ensures the image is a square for a perfect circle */
+    width: 75px;
+    height: 75px;
+
+    /* Crops the image to fit the container without stretching */
+    object-fit: cover; 
+    
+    /* Applies the circular shape */
+    border-radius: 50%;
+    
+    /* Optional: Add a border and center it if needed */
+    border: 2px solid #ddd;
+    display: block;
+    margin: 0 auto;
+}
+&lt;/style&gt;
+&lt;figure class=&#34;circle-photo&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/ram_profile.png&#34;
+    alt=&#34;Profile Photo&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;ॐ श्री गणेशाय नमः!&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     

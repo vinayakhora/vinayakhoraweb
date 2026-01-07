@@ -17,8 +17,8 @@
         <description>&lt;style&gt;
 circle-photo {
     /* Ensures the image is a square for a perfect circle */
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
 
     /* Crops the image to fit the container without stretching */
     object-fit: cover; 
@@ -32,9 +32,11 @@ circle-photo {
     margin: 0 auto;
 }
 &lt;/style&gt;
-&lt;figure class=&#34;circle-photo&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/3.jpg&#34;
-    alt=&#34;Profile Photo&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Zion National Park&lt;/p&gt;</description>
+&lt;figure class=&#34;circle-photo&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/ram_profile.png&#34;
+    alt=&#34;Profile Photo&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Om Shri Ganeshaya Namah!&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     
