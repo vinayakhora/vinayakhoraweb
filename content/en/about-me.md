@@ -33,6 +33,9 @@ circle-photo {
   class="circle-photo"
 >}}
 -->
+Contact Us: vinayakhora@gmail.com
+___
+
 
 **Om Shri Ganeshaya Namah!**
 

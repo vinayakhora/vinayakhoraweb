@@ -18,11 +18,11 @@
 
 
 
-  [[main]]
-  name = "संपर्क विधि"
-  weight = 400
-  identifier = "contact"
-  url = "/hi/contact/"
+  #[[main]]
+  #name = "संपर्क विधि"
+  #weight = 400
+  #identifier = "contact"
+  #url = "/hi/contact/"
 
   [[main]]
   name = "मेरे बारे में"

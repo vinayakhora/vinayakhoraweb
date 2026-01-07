@@ -33,6 +33,8 @@ circle-photo {
   class="circle-photo"
 >}}
 -->
+Contact Us: vinayakhora@gmail.com
+___
 
 **ॐ श्री गणेशाय नमः!**
 
