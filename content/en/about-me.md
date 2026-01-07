@@ -40,7 +40,7 @@ circle-photo {
 
 My father was a civil engineer, and my mother, a devoted homemaker.  She nurtured young minds by giving tuitions at home. From them, I learned discipline, sincerity and love for everyone.
 
-I graduated from **Delhi University**, studying **Economics and Political Science**, and soon after began my professional journey as a computer programmer with a Delhi-based startup. Over the years, I had the privilege of working with some of the largest corporate organizations such as Goldman Sachs, Reuters, American President Lines (APL), to name a few. My career took me to live and work in **America and England**, where I developed deep expertise in **software engineering and Machine Learning / Artificial Intelligence**.
+I graduated from **Delhi University**, and soon after began my professional journey as a computer programmer with a Delhi-based startup. Over the years, I had the privilege of working with some of the largest corporate organizations such as Goldman Sachs, Reuters, American President Lines (APL), to name a few. My career took me to live and work in **America and England**, where I developed deep expertise in **software engineering and Machine Learning / Artificial Intelligence**.
 
 At this stage of my life, I have been fortunate to dedicate my skills and experience to public service. I have served as an **IT consultant to central and state government organizations**, contributing to projects of national importance such as **Aadhaar** and **GST**. My consultancy work has included engagements with the **Ministry of Finance**, **Ministry of Defence**, **Ministry of Agriculture**, and several other government bodies.
 
