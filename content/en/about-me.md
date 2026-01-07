@@ -36,7 +36,7 @@ circle-photo {
 
 **Om Shri Ganeshaya Namah!**
 
-**Namaste!** I am glad you are on this page and wish to know about me. My name is **Ram Mohan Kapil**. I was born into a Brahmin family of the **Kapil gotra**. My grandfather was a deeply spiritual man, content with what lord Rama gave him. It was he who gave me the name *“Ram”*, with the heartfelt wish that the divine name would be spoken and remembered as often as possible. My grandmother was also highly spiritual. There life and values planted the first seeds of spirituality within me.
+**Namaste!** I am glad you are on this page and wish to know about me. My name is **Ram Mohan Kapil**. I was born into a Brahmin family of the **Kapil gotra**. My grandfather was a deeply spiritual man, content with what lord Rama gave him. It was he who gave me the name *“Ram”*, with the heartfelt wish that the divine name would be spoken and remembered as often as possible. My grandmother was also highly spiritual. Their life and values planted the first seeds of spirituality within me.
 
 My father was a civil engineer, and my mother, a devoted homemaker.  She nurtured young minds by giving tuitions at home. From them, I learned discipline, sincerity and love for everyone.
 
