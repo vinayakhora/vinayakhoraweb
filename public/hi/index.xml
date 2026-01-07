@@ -32,10 +32,12 @@ circle-photo {
     margin: 0 auto;
 }
 &lt;/style&gt;
+&lt;!--
 &lt;figure class=&#34;circle-photo&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/ram_profile.png&#34;
     alt=&#34;Profile Photo&#34;&gt;
 &lt;/figure&gt;
 
+--&gt;
 &lt;p&gt;&lt;strong&gt;ॐ श्री गणेशाय नमः!&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>

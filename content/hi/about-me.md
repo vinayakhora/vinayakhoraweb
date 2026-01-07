@@ -26,12 +26,13 @@ circle-photo {
 }
 </style>
 
-
+<!--
 {{< figure
   src="/images/ram_profile.png"
   alt="Profile Photo"
   class="circle-photo"
 >}}
+-->
 
 **ॐ श्री गणेशाय नमः!**
 
