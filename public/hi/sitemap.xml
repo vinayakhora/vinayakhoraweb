@@ -28,6 +28,76 @@
                 href="http://localhost:1313/hi/"
                 />
   </url><url>
+    <loc>http://localhost:1313/hi/vinayak-hora-astrology-app/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/vinayak-hora-astrology-app/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/vinayak-hora-astrology-app/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hi/categories/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hi/tags/swiss-ephemeris/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/swiss-ephemeris/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/tags/swiss-ephemeris/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hi/tags/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hi/tags/%E0%A4%95%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%B2%E0%A5%80/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hi/categories/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B8%E0%A5%89%E0%A4%AB%E0%A5%8D%E0%A4%9F%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B8%E0%A5%89%E0%A4%AB%E0%A5%8D%E0%A4%9F%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hi/categories/%E0%A4%AE%E0%A5%8B%E0%A4%AC%E0%A4%BE%E0%A4%87%E0%A4%B2-%E0%A4%90%E0%A4%AA%E0%A5%8D%E0%A4%B8/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/hi/post/</loc>
     <lastmod>2025-12-24T01:03:32+05:30</lastmod>
     <xhtml:link
@@ -67,19 +137,6 @@
                 href="http://localhost:1313/hi/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/hi/about/</loc>
-    <lastmod>2025-12-23T22:28:56+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/about/"
-                />
-  </url><url>
     <loc>http://localhost:1313/hi/policy/</loc>
     <lastmod>2025-12-23T22:23:49+05:30</lastmod>
     <xhtml:link
@@ -91,32 +148,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="http://localhost:1313/hi/policy/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/hi/categories/</loc>
-    <lastmod>2025-12-23T14:03:32+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/hi/tags/</loc>
-    <lastmod>2025-12-23T14:03:32+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/hi/tags/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%A6/</loc>

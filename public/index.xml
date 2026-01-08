@@ -8,7 +8,7 @@
     <language>en</language>
     <lastBuildDate>Wed, 07 Jan 2026 14:04:11 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>About Me</title>
       <link>http://localhost:1313/about-me/</link>
       <pubDate>Wed, 07 Jan 2026 14:04:11 +0530</pubDate>
       
@@ -43,6 +43,17 @@ circle-photo {
     </item>
     
     <item>
+      <title>Vinayak Hora – Advanced Astrology App</title>
+      <link>http://localhost:1313/vinayak-hora-astrology-app/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/vinayak-hora-astrology-app/</guid>
+      
+        <description>Vinayak Hora is a professional astrology app offering North &amp; South Indian charts, D1–D60 divisional charts, Vimshottari Dasha, Shadbal, Ashtakavarga, transits, birth time correction, and Swiss Ephemeris–based calculations.</description>
+      
+    </item>
+    
+    <item>
       <title>A Journey Around the World!</title>
       <link>http://localhost:1313/post/my-first-post/</link>
       <pubDate>Wed, 24 Dec 2025 01:03:32 +0530</pubDate>
@@ -61,17 +72,6 @@ circle-photo {
       <guid>http://localhost:1313/contact/</guid>
       
         <description>&lt;p&gt;Contact Page!&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 23 Dec 2025 22:28:56 +0530</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      
-        <description>&lt;p&gt;About Page!&lt;/p&gt;</description>
       
     </item>
     

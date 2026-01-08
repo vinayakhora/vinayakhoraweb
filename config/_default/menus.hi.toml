@@ -7,14 +7,14 @@
   [[main]]
   name = "लेख सूची"
   weight = 200
-  identifier = "posts"
+  identifier = "लेख"
   url = "/hi/post/"
 
   [[main]]
   name = "मोबाईल ऐप"
   weight = 300
-  identifier = "about"
-  url = "/hi/about/"
+  identifier = "मोबाईल ऐप"
+  url = "/hi/vinayak-hora-astrology-app/"
 
 
 

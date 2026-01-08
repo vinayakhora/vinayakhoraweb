@@ -1,5 +1,5 @@
 +++
-
+title = "परिचय"
 date = 2026-01-07T14:04:11+05:30
 Description = ""
 Tags = []
@@ -33,7 +33,7 @@ circle-photo {
   class="circle-photo"
 >}}
 -->
-Contact Us: vinayakhora@gmail.com
+संपर्क (ईमेल) : vinayakhora@gmail.com
 ___
 
 **ॐ श्री गणेशाय नमः!**

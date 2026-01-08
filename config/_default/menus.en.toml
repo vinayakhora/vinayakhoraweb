@@ -13,8 +13,8 @@
    [[main]]
   name = "Mobile App"
   weight = 400
-  identifier = "about"
-  url = "/about/"
+  identifier = "mobile-app"
+  url = "/vinayak-hora-astrology-app/"
 
   #[[main]]
   #name = "Contact Us"

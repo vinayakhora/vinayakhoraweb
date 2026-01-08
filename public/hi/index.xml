@@ -8,7 +8,7 @@
     <language>hi</language>
     <lastBuildDate>Wed, 07 Jan 2026 14:04:11 +0530</lastBuildDate><atom:link href="http://localhost:1313/hi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>परिचय</title>
       <link>http://localhost:1313/hi/about-me/</link>
       <pubDate>Wed, 07 Jan 2026 14:04:11 +0530</pubDate>
       
@@ -38,7 +38,18 @@ circle-photo {
 &lt;/figure&gt;
 
 --&gt;
-&lt;p&gt;Contact Us: &lt;a href=&#34;mailto:vinayakhora@gmail.com&#34;&gt;vinayakhora@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;संपर्क (ईमेल) : &lt;a href=&#34;mailto:vinayakhora@gmail.com&#34;&gt;vinayakhora@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hi/vinayak-hora-astrology-app/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hi/vinayak-hora-astrology-app/</guid>
+      
+        <description>Vinayak Hora एक पेशेवर ज्योतिष ऐप है जो उत्तर एवं दक्षिण भारतीय कुंडली, D1–D60 वर्ग कुंडली, विंशोत्तरी दशा, षडबल, अष्टकवर्ग, गोचर, जन्म समय सुधार और Swiss Ephemeris आधारित गणनाएँ प्रदान करता है।</description>
       
     </item>
     
@@ -50,28 +61,6 @@ circle-photo {
       <guid>http://localhost:1313/hi/post/my-first-post/</guid>
       
         <description>&lt;p&gt;&lt;strong&gt;माउंट कैलाश&lt;/strong&gt; पर, जो भगवान शिव और देवी पार्वती का दिव्य धाम है, उनके दो पुत्र—&lt;strong&gt;कार्तिकेय&lt;/strong&gt; और &lt;strong&gt;गणेश&lt;/strong&gt;—देवताओं की साक्षी में बड़े हो रहे थे।&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/hi/contact/</link>
-      <pubDate>Tue, 23 Dec 2025 22:29:21 +0530</pubDate>
-      
-      <guid>http://localhost:1313/hi/contact/</guid>
-      
-        <description>&lt;p&gt;Contact Page!&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/hi/about/</link>
-      <pubDate>Tue, 23 Dec 2025 22:28:56 +0530</pubDate>
-      
-      <guid>http://localhost:1313/hi/about/</guid>
-      
-        <description>&lt;p&gt;About Page!&lt;/p&gt;</description>
       
     </item>
     
