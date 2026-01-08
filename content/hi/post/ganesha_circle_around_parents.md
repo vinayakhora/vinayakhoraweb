@@ -2,7 +2,7 @@
 date = '2025-12-24T01:03:32+05:30'
 draft = false
 title = 'दुनिया की परिक्रमा की एक अद्भुत यात्रा!'
-thumbnail= "images/ganesha_circle_around_parents.png"
+thumbnail= "images/ganeshji_circle_around_parents.png"
 +++
 
 **माउंट कैलाश** पर, जो भगवान शिव और देवी पार्वती का दिव्य धाम है, उनके दो पुत्र—**कार्तिकेय** और **गणेश**—देवताओं की साक्षी में बड़े हो रहे थे।

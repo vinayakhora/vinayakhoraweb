@@ -2,7 +2,7 @@
 date = '2025-12-24T01:03:32+05:30'
 draft = false
 title = 'A Journey Around the World!'
-thumbnail= "images/ganesha_circle_around_parents.png"
+thumbnail= "images/ganeshji_circle_around_parents.png"
 +++
 
 On **Mount Kailasa**, the divine abode of Lord Shiva and Goddess Parvati, their two sons—**Kartikeya** and **Ganesha**—grew under the watchful presence of the gods.
