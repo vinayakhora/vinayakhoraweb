@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vinayak Hora</title>
-    <link>https://www.vinayakhora.in/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Vinayak Hora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 14:04:11 +0530</lastBuildDate><atom:link href="https://www.vinayakhora.in/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jan 2026 14:04:11 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>https://www.vinayakhora.in/about-me/</link>
+      <link>http://localhost:1313/about-me/</link>
       <pubDate>Wed, 07 Jan 2026 14:04:11 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/about-me/</guid>
+      <guid>http://localhost:1313/about-me/</guid>
       
         <description>&lt;style&gt;
 circle-photo {
@@ -33,7 +33,7 @@ circle-photo {
 }
 &lt;/style&gt;
 &lt;!--
-&lt;figure class=&#34;circle-photo&#34;&gt;&lt;img src=&#34;https://www.vinayakhora.in/images/ram_profile.png&#34;
+&lt;figure class=&#34;circle-photo&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/ram_profile.png&#34;
     alt=&#34;Profile Photo&#34;&gt;
 &lt;/figure&gt;
 
@@ -44,10 +44,10 @@ circle-photo {
     
     <item>
       <title>Vinayak Hora – Advanced Astrology App</title>
-      <link>https://www.vinayakhora.in/vinayak-hora-astrology-app/</link>
+      <link>http://localhost:1313/vinayak-hora-astrology-app/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.vinayakhora.in/vinayak-hora-astrology-app/</guid>
+      <guid>http://localhost:1313/vinayak-hora-astrology-app/</guid>
       
         <description>Vinayak Hora is a professional astrology app offering North &amp; South Indian charts, D1–D60 divisional charts, Vimshottari Dasha, Shadbal, Ashtakavarga, transits, birth time correction, and Swiss Ephemeris–based calculations.</description>
       
@@ -55,10 +55,10 @@ circle-photo {
     
     <item>
       <title>Terms of Use</title>
-      <link>https://www.vinayakhora.in/terms-of-use/</link>
+      <link>http://localhost:1313/terms-of-use/</link>
       <pubDate>Thu, 01 Jan 2026 15:23:17 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/terms-of-use/</guid>
+      <guid>http://localhost:1313/terms-of-use/</guid>
       
         <description>&lt;ul&gt;
 &lt;li&gt;
@@ -71,10 +71,10 @@ circle-photo {
     
     <item>
       <title>A Journey Around the World!</title>
-      <link>https://www.vinayakhora.in/post/ganesha_circle_around_parents/</link>
+      <link>http://localhost:1313/post/ganesha_circle_around_parents/</link>
       <pubDate>Wed, 24 Dec 2025 01:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/post/ganesha_circle_around_parents/</guid>
+      <guid>http://localhost:1313/post/ganesha_circle_around_parents/</guid>
       
         <description>&lt;p&gt;On &lt;strong&gt;Mount Kailasa&lt;/strong&gt;, the divine abode of Lord Shiva and Goddess Parvati, their two sons—&lt;strong&gt;Kartikeya&lt;/strong&gt; and &lt;strong&gt;Ganesha&lt;/strong&gt;—grew under the watchful presence of the gods.&lt;/p&gt;</description>
       
@@ -82,10 +82,10 @@ circle-photo {
     
     <item>
       <title>Contact</title>
-      <link>https://www.vinayakhora.in/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 23 Dec 2025 22:29:21 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       
         <description>&lt;p&gt;Contact Page!&lt;/p&gt;</description>
       
@@ -93,10 +93,10 @@ circle-photo {
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://www.vinayakhora.in/policy/</link>
+      <link>http://localhost:1313/policy/</link>
       <pubDate>Tue, 23 Dec 2025 22:23:49 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/policy/</guid>
+      <guid>http://localhost:1313/policy/</guid>
       
         <description>&lt;ul&gt;
 &lt;li&gt;
@@ -109,10 +109,10 @@ circle-photo {
     
     <item>
       <title>Why Lord Ganesha Is Worshipped First — A Vedic Perspective</title>
-      <link>https://www.vinayakhora.in/post/ganesha-first-lord/</link>
+      <link>http://localhost:1313/post/ganesha-first-lord/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/post/ganesha-first-lord/</guid>
+      <guid>http://localhost:1313/post/ganesha-first-lord/</guid>
       
         <description>A strictly Vedic explanation of why Lord Ganesha is considered first among all gods, with citations from classical Sanskrit texts.</description>
       

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Vinayak Hora</title>
-    <link>https://www.vinayakhora.in/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Vinayak Hora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.vinayakhora.in/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Astrology Software</title>
-      <link>https://www.vinayakhora.in/categories/astrology-software/</link>
+      <link>http://localhost:1313/categories/astrology-software/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.vinayakhora.in/categories/astrology-software/</guid>
+      <guid>http://localhost:1313/categories/astrology-software/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Mobile Apps</title>
-      <link>https://www.vinayakhora.in/categories/mobile-apps/</link>
+      <link>http://localhost:1313/categories/mobile-apps/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.vinayakhora.in/categories/mobile-apps/</guid>
+      <guid>http://localhost:1313/categories/mobile-apps/</guid>
       
         <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Indic Studies</title>
-      <link>https://www.vinayakhora.in/categories/indic-studies/</link>
+      <link>http://localhost:1313/categories/indic-studies/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/categories/indic-studies/</guid>
+      <guid>http://localhost:1313/categories/indic-studies/</guid>
       
         <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Theology</title>
-      <link>https://www.vinayakhora.in/categories/theology/</link>
+      <link>http://localhost:1313/categories/theology/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/categories/theology/</guid>
+      <guid>http://localhost:1313/categories/theology/</guid>
       
         <description></description>
       
