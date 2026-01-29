@@ -9,7 +9,7 @@ draft = false
 * **Author / Developer:** Ram Mohan Kapil
 * **Application Name:** Vinayak Hora
 * **Category:** Astrology / Vedic Jyotish
-* **Platform:** Android (Google Play Store)
+* **Platform:** Android (Google Play Store) and vinayakhora.in website
 
 ---
 

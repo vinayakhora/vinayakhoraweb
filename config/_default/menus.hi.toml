@@ -36,3 +36,9 @@
   weight = 1
   identifier = "policy"
   url = "/hi/policy/"
+
+  [[footer]]
+  name = "उपयोग की शर्तें"
+  weight = 2
+  identifier = "terms-of-use"
+  url = "/hi/terms-of-use/"

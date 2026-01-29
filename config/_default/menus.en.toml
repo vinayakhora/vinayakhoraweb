@@ -39,3 +39,9 @@
   weight = 1
   identifier = "policy"
   url = "/policy/"
+
+  [[footer]]
+  name = "Terms of Use"
+  weight = 2
+  identifier = "terms-of-use"
+  url = "/terms-of-use/"

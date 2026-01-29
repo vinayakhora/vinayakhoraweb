@@ -54,6 +54,22 @@ circle-photo {
     </item>
     
     <item>
+      <title>Terms of Use</title>
+      <link>http://localhost:1313/terms-of-use/</link>
+      <pubDate>Thu, 01 Jan 2026 15:23:17 +0530</pubDate>
+      
+      <guid>http://localhost:1313/terms-of-use/</guid>
+      
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Last Updated:&lt;/strong&gt; 31 December 2025&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Author / Developer:&lt;/strong&gt; Ram Mohan Kapil&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>A Journey Around the World!</title>
       <link>http://localhost:1313/post/ganesha_circle_around_parents/</link>
       <pubDate>Wed, 24 Dec 2025 01:03:32 +0530</pubDate>
