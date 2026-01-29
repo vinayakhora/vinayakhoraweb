@@ -5,9 +5,14 @@
   {{ end }}">
   <div class="sidebar__content">
     <div class="sidebar__introduction">
-      <img class="sidebar__introduction-profileimage" src="{{ .Site.Params.profilePicture | relURL }}"
-        alt="profile picture" />
+      <!-- <img class="sidebar__introduction-profileimage" src="{{ .Site.Params.profilePicture | relURL }}"
+        alt="profile picture" /> -->
 
+        <a href="{{ .Site.BaseURL | relURL }}">
+  <img class="sidebar__introduction-profileimage"
+       src="{{ .Site.Params.profilePicture | relURL }}"
+       alt="profile picture" />
+</a>
 
       {{ if .IsHome }}
       <div class="sidebar__introduction-title">
