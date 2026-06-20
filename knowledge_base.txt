@@ -28,7 +28,7 @@ that you will have to change to "true"
 modify content
 ===============
 
-start hugo server - hugo server -D                    [-D will include draft post also]
+to start hugo server  give this command :  hugo server -D                    [-D will include draft post also]
 output of the above command will give the url using which you can see the site.  make change to content
 and see the change on the site.
 
