@@ -20,7 +20,7 @@ Vinayak Hora ("the app", "we", "us") is a Vedic astrology application. This poli
 ## 1. Summary
 
 - Your data is stored **locally on your device** by default.
-- If you take a **paid subscription**, you sign in with **Google** and your horoscopes are **backed up and synced** to our cloud (Google Firebase) so they survive device loss and sync across your devices.
+- If you take a **paid subscription**, your horoscopes are **backed up and synced** to our cloud (Google Firebase) so they survive device loss and sync across your devices.
 - We **do not sell** your data and **do not use** your email, name, or birth details for marketing.
 
 ## 2. Information We Collect
