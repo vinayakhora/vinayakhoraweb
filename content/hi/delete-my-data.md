@@ -1,6 +1,6 @@
 +++
 date = '2026-06-27T20:20:00+05:30'
-draft = true
+draft = false
 title = 'मेरा डेटा हटाएँ'
 +++
 
