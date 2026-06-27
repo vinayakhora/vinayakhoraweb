@@ -1,11 +1,11 @@
 +++
-date = '2026-01-01T15:23:17+05:30'
+date = '2026-06-26T15:23:17+05:30'
 draft = false
 title = 'Terms of Use'
 +++
 
 
-* **Last Updated:** 21 June 2026
+* **Last Updated:** 26 June 2026
   
 * **Author / Developer:** Ram Mohan Kapil
 * **Application Name:** Vinayak Hora
@@ -181,7 +181,6 @@ User data may be used for purposes permitted under applicable law, including but
 
 - Providing personalized experiences  
 - Improving services and content  
-- Communication via email, SMS, or phone  
 - Analytics, research, and performance monitoring  
 
 Sensitive personal data shall not be shared with third parties without User consent, except as required by law. Data may be retained as necessary for legal, regulatory, operational, or dispute-resolution purposes.
