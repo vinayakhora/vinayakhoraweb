@@ -1,10 +1,10 @@
 +++
 title = 'Privacy Policy'
-date = '2026-06-26T22:23:49+05:30'
+date = '2026-06-29T22:23:49+05:30'
 draft = false
 +++
 
-* **Last Updated:** 26 June 2026
+* **Last Updated:** 29 June 2026
   
 * **Author / Developer:** Ram Mohan Kapil
 * **Application Name:** Vinayak Hora
@@ -13,7 +13,7 @@ draft = false
 
 ---
 
-**Last updated:** 26 June 2026
+**Last updated:** 29 June 2026
 
 Vinayak Hora ("the app", "we", "us") is a Vedic astrology application. This policy explains what data we collect, why we collect it, where it is stored, and how you can access or delete it.
 
@@ -42,6 +42,7 @@ When you purchase a subscription through Google Play, we store your **subscripti
 - A device **App Set ID** and first-seen timestamp, used to manage the introductory ad-free period and prevent abuse.
 - **Firebase Analytics** usage and diagnostic data (such as app events, device model, operating system version, and approximate region) to understand usage and improve the app.
 - **Firebase App Check** attestation tokens to protect our backend from abuse.
+- **Firebase Crashlytics** crash and diagnostic reports (such as error stack traces, device model, operating system version, app state at the time of an error, and a Crashlytics installation identifier) so we can detect and fix crashes and failures. These reports do not include your name, email address, or horoscope content.
 - For the free tier, **Google AdMob** may use an advertising identifier to display advertisements. Where required by applicable law, we request your consent before serving personalized advertisements. You may change your advertising preferences through your device or Google settings where available.
 
 ### e) App Settings
@@ -51,7 +52,7 @@ Your preferences (language, theme, dashboard layout, calculation options) are st
 ## 3. Where Data Is Stored
 
 - **On your device:** an encrypted local database and app preferences.
-- **In the cloud:** Google **Firebase** (Authentication, Cloud Firestore, App Check) and **Google Play** billing services. Data may be processed on Google infrastructure, including the `asia-south1` (India) region.
+- **In the cloud:** Google **Firebase** (Authentication, Cloud Firestore, App Check, Crashlytics) and **Google Play** billing services. Data may be processed on Google infrastructure, including the `asia-south1` (India) region.
 - Google may process data in multiple countries depending on its infrastructure and service requirements. Where applicable, Google provides safeguards for international transfers in accordance with applicable privacy laws.
 
 ## 4. How We Use Your Data
@@ -63,6 +64,7 @@ We use your data to:
 - Back up and synchronize horoscopes for subscribers.
 - Validate and manage subscriptions.
 - Maintain security and prevent abuse.
+- Detect, diagnose, and fix crashes and failures.
 - Improve the app through aggregate analytics.
 
 We do **not** use your personal information (email, name, or birth details) for marketing, and we do **not** sell or share it with third parties for their own marketing.
@@ -72,7 +74,7 @@ We do **not** use your personal information (email, name, or birth details) for 
 Where the General Data Protection Regulation (GDPR) applies, we process your personal data on one or more of the following legal bases:
 
 - **Performance of a contract** – to provide the app, perform astrology calculations, synchronize subscriber data, and manage subscriptions.
-- **Legitimate interests** – to maintain security, prevent abuse, improve the app, and analyze aggregate usage.
+- **Legitimate interests** – to maintain security, prevent abuse, diagnose and fix crashes, improve the app, and analyze aggregate usage.
 - **Consent** – where required, including for personalized advertising or analytics. You may withdraw consent where applicable through your device, Google settings, or by contacting us.
 - **Legal obligations** – where processing is required by applicable law.
 
@@ -82,6 +84,7 @@ We share data only with service providers that operate the app. These providers 
 
 - **Google Play Services / Firebase** (authentication, database, app integrity, billing)
 - **Firebase Analytics**
+- **Firebase Crashlytics** (crash and diagnostics reporting)
 - **Google AdMob** (advertising for the free tier only)
 
 We do **not** share your data with third parties for their own marketing.
@@ -93,6 +96,8 @@ We may also disclose information where required to comply with applicable laws, 
 Cloud horoscope data, account information, and subscription records are retained while your account exists.
 
 If you delete your account or request deletion, your personal data is normally removed promptly and, in any event, within **30 days**, unless a longer retention period is required by applicable law.
+
+Crash and diagnostic reports are retained by our service provider for a limited period (typically up to 90 days).
 
 Local data remains on your device until you delete it or uninstall the app.
 
