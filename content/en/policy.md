@@ -1,10 +1,10 @@
 +++
 title = 'Privacy Policy'
-date = '2026-06-29T22:23:49+05:30'
+date = '2026-06-28T22:23:49+05:30'
 draft = false
 +++
 
-* **Last Updated:** 29 June 2026
+* **Last Updated:** 28 June 2026
   
 * **Author / Developer:** Ram Mohan Kapil
 * **Application Name:** Vinayak Hora
@@ -12,8 +12,6 @@ draft = false
 * **Platform:** Android (Google Play Store) and vinayakhora.in website
 
 ---
-
-**Last updated:** 29 June 2026
 
 Vinayak Hora ("the app", "we", "us") is a Vedic astrology application. This policy explains what data we collect, why we collect it, where it is stored, and how you can access or delete it.
 
