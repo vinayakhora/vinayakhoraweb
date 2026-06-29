@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/hi/delete-my-data/</loc>
+    <lastmod>2026-06-27T20:20:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/delete-my-data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/delete-my-data/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hi/</loc>
+    <lastmod>2026-06-27T20:20:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hi/terms-of-use/</loc>
+    <lastmod>2026-06-26T15:23:17+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/terms-of-use/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/terms-of-use/"
+                />
+  </url><url>
     <loc>http://localhost:1313/hi/about-me/</loc>
     <lastmod>2026-01-07T14:04:11+05:30</lastmod>
     <xhtml:link
@@ -13,19 +52,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="http://localhost:1313/hi/about-me/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/hi/</loc>
-    <lastmod>2026-01-07T14:04:11+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/"
                 />
   </url><url>
     <loc>http://localhost:1313/hi/vinayak-hora-astrology-app/</loc>
@@ -98,19 +124,6 @@
     <loc>http://localhost:1313/hi/categories/%E0%A4%AE%E0%A5%8B%E0%A4%AC%E0%A4%BE%E0%A4%87%E0%A4%B2-%E0%A4%90%E0%A4%AA%E0%A5%8D%E0%A4%B8/</loc>
     <lastmod>2026-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hi/terms-of-use/</loc>
-    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/terms-of-use/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/terms-of-use/"
-                />
-  </url><url>
     <loc>http://localhost:1313/hi/post/</loc>
     <lastmod>2025-12-24T01:03:32+05:30</lastmod>
     <xhtml:link
@@ -135,19 +148,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="http://localhost:1313/hi/post/ganesha_circle_around_parents/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/hi/policy/</loc>
-    <lastmod>2025-12-23T22:23:49+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/policy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/policy/"
                 />
   </url><url>
     <loc>http://localhost:1313/hi/tags/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%A6/</loc>

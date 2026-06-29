@@ -6,7 +6,36 @@
     <description>Recent content on Vinayak Hora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 14:04:11 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jun 2026 20:20:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delete My Data</title>
+      <link>http://localhost:1313/delete-my-data/</link>
+      <pubDate>Sat, 27 Jun 2026 20:20:00 +0530</pubDate>
+      
+      <guid>http://localhost:1313/delete-my-data/</guid>
+      
+        <description>&lt;h1 id=&#34;account--data-deletion--vinayak-hora&#34;&gt;Account &amp;amp; Data Deletion — Vinayak Hora&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;App:&lt;/strong&gt; Vinayak Hora (com.vinayakhora.vinayak_hora)
+&lt;strong&gt;Developer contact:&lt;/strong&gt; &lt;a href=&#34;mailto:vinayakhora@gmail.com&#34;&gt;vinayakhora@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Terms of Use</title>
+      <link>http://localhost:1313/terms-of-use/</link>
+      <pubDate>Fri, 26 Jun 2026 15:23:17 +0530</pubDate>
+      
+      <guid>http://localhost:1313/terms-of-use/</guid>
+      
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Last Updated:&lt;/strong&gt; 26 June 2026&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Author / Developer:&lt;/strong&gt; Ram Mohan Kapil&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about-me/</link>
@@ -54,22 +83,6 @@ circle-photo {
     </item>
     
     <item>
-      <title>Terms of Use</title>
-      <link>http://localhost:1313/terms-of-use/</link>
-      <pubDate>Thu, 01 Jan 2026 15:23:17 +0530</pubDate>
-      
-      <guid>http://localhost:1313/terms-of-use/</guid>
-      
-        <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Last Updated:&lt;/strong&gt; 21 June 2026&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Author / Developer:&lt;/strong&gt; Ram Mohan Kapil&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>A Journey Around the World!</title>
       <link>http://localhost:1313/post/ganesha_circle_around_parents/</link>
       <pubDate>Wed, 24 Dec 2025 01:03:32 +0530</pubDate>
@@ -88,22 +101,6 @@ circle-photo {
       <guid>http://localhost:1313/contact/</guid>
       
         <description>&lt;p&gt;Contact Page!&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>http://localhost:1313/policy/</link>
-      <pubDate>Tue, 23 Dec 2025 22:23:49 +0530</pubDate>
-      
-      <guid>http://localhost:1313/policy/</guid>
-      
-        <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Last Updated:&lt;/strong&gt; 27 November 2025&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Author / Developer:&lt;/strong&gt; Ram Mohan Kapil&lt;/p&gt;</description>
       
     </item>
     
