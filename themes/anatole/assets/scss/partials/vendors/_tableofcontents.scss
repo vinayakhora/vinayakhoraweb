@@ -1,4 +1,4 @@
-@use 'modules/variables' as var;
+@use 'modules/color_theme' as color;
 
 #TableOfContents {
   display: block;
@@ -17,7 +17,10 @@
 
 #TableOfContents li a {
   display: inherit;
-  color: var.$info;
+
+  @include color.themed() {
+    color: color.t('info');
+  }
 }
 
 #TableOfContents li a:hover {

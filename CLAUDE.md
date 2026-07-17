@@ -46,3 +46,5 @@ Upstream theme docs: https://github.com/lxndrblz/anatole/wiki
 ## Static assets
 
 `static/` holds files served as-is at the site root (favicons, `app-ads.txt`, `robots.txt` inputs, images, and `static/app-data/` which contains app-related downloads like the sample horoscope PDF and app data file referenced by the Mobile App page). `public/` is the generated build output — do not hand-edit it, it's overwritten by `hugo`.
+
+The root `layouts/` directory (separate from `themes/anatole/layouts/`) holds site-level template overrides that take precedence over the theme — currently just `robots.txt`.

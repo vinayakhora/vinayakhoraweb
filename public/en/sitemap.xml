@@ -26,6 +26,16 @@
   </url><url>
     <loc>http://localhost:1313/post/natonnata-bala-explained/</loc>
     <lastmod>2026-07-18T00:44:29+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/post/natonnata-bala-explained/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/natonnata-bala-explained/"
+                />
   </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-07-18T00:44:29+05:30</lastmod>

@@ -7,12 +7,28 @@
 
 body {
   @include conf.ltr {
-    font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Work Sans', 'Hiragino Sans GB', sans-serif;
+    font-family: 'Inter', 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Work Sans', 'Hiragino Sans GB', sans-serif;
     font-size: 1.6rem;
+    line-height: 1.7;
   }
 
   @include conf.rtl {
     font-family: 'Tajawal', sans-serif;
     font-size: 1.5rem;
   }
+}
+
+a {
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.post__content h1,
+.post__content h2,
+.post__content h3,
+.sidebar__introduction-title,
+.archive__heading,
+.portfolio__title {
+  font-family: 'Playfair Display', 'Georgia', serif;
 }

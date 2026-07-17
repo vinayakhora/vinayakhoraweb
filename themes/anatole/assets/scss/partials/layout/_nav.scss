@@ -42,6 +42,14 @@
       text-transform: uppercase;
       text-align: center;
       white-space: nowrap;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+
+      a:hover {
+        @include color.themed() {
+          color: color.t('info');
+        }
+      }
 
       @include conf.desktop {
         padding-top: 0;
@@ -63,9 +71,13 @@
     &--active {
       padding-bottom: $py-desktop;
 
+      @include color.themed() {
+        color: color.t('info');
+      }
+
       @include conf.desktop {
         @include color.themed() {
-          border-bottom: 1px solid color.t('primary');
+          border-bottom: 2px solid color.t('info');
         }
       }
     }
