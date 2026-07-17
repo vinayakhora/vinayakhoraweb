@@ -16,7 +16,7 @@ how you have used it for youtube icon and google play icons.
 ===================
 Command : 
 
-hugo new content content/en/posts/my-first-post.md   [this will create eng post, for each eng post
+hugo new content content/en/post/my-first-post.md   [this will create eng post, for each eng post
 
 1. you have to have hindi post also, which is to be placed in content/hi folder]  
 
