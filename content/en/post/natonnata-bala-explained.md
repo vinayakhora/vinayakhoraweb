@@ -8,7 +8,7 @@ DisableComments: false
 draft: false
 ---
 
-## What is "planetary strength", in one minute
+## Where Natonnata Bala fits in Shadbala
 
 In classical Vedic astrology, a planet is not simply "good" or "bad" — what
 matters is how **strong** it is to deliver its results. The traditional

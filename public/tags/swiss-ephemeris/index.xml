@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swiss Ephemeris on Vinayak Hora</title>
-    <link>http://localhost:1313/tags/swiss-ephemeris/</link>
+    <link>https://www.vinayakhora.in/tags/swiss-ephemeris/</link>
     <description>Recent content in Swiss Ephemeris on Vinayak Hora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/swiss-ephemeris/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.vinayakhora.in/tags/swiss-ephemeris/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vinayak Hora – Advanced Astrology App</title>
-      <link>http://localhost:1313/vinayak-hora-astrology-app/</link>
+      <link>https://www.vinayakhora.in/vinayak-hora-astrology-app/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/vinayak-hora-astrology-app/</guid>
+      <guid>https://www.vinayakhora.in/vinayak-hora-astrology-app/</guid>
       
         <description>Vinayak Hora is a professional astrology app offering North &amp; South Indian charts, D1–D60 divisional charts, Vimshottari Dasha, Shadbal, Ashtakavarga, transits, birth time correction, and Swiss Ephemeris–based calculations.</description>
       
