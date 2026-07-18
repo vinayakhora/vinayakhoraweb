@@ -2,11 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.vinayakhora.in/tags/b.v.-raman/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
+    <loc>https://www.vinayakhora.in/tags/ayana-bala/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.vinayakhora.in/post/ayana-bala-two-methods/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://www.vinayakhora.in/hi/post/ayana-bala-two-methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.vinayakhora.in/post/ayana-bala-two-methods/"
+                />
   </url><url>
     <loc>https://www.vinayakhora.in/categories/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
@@ -18,7 +31,64 @@
                 href="https://www.vinayakhora.in/categories/"
                 />
   </url><url>
+    <loc>https://www.vinayakhora.in/tags/declination/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+  </url><url>
     <loc>https://www.vinayakhora.in/tags/kaala-bala/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.vinayakhora.in/post/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://www.vinayakhora.in/hi/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.vinayakhora.in/post/"
+                />
+  </url><url>
+    <loc>https://www.vinayakhora.in/categories/shadbala/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.vinayakhora.in/tags/shadbala/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.vinayakhora.in/tags/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://www.vinayakhora.in/hi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.vinayakhora.in/tags/"
+                />
+  </url><url>
+    <loc>https://www.vinayakhora.in/categories/vedic-astrology/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.vinayakhora.in/tags/vedic-astrology/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.vinayakhora.in/</loc>
+    <lastmod>2026-07-18T12:05:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://www.vinayakhora.in/hi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.vinayakhora.in/"
+                />
+  </url><url>
+    <loc>https://www.vinayakhora.in/tags/b.v.-raman/</loc>
     <lastmod>2026-07-18T00:44:29+05:30</lastmod>
   </url><url>
     <loc>https://www.vinayakhora.in/tags/natonnata-bala/</loc>
@@ -35,57 +105,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.vinayakhora.in/post/natonnata-bala-explained/"
-                />
-  </url><url>
-    <loc>https://www.vinayakhora.in/post/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://www.vinayakhora.in/hi/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.vinayakhora.in/post/"
-                />
-  </url><url>
-    <loc>https://www.vinayakhora.in/categories/shadbala/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
-  </url><url>
-    <loc>https://www.vinayakhora.in/tags/shadbala/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
-  </url><url>
-    <loc>https://www.vinayakhora.in/tags/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://www.vinayakhora.in/hi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.vinayakhora.in/tags/"
-                />
-  </url><url>
-    <loc>https://www.vinayakhora.in/categories/vedic-astrology/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
-  </url><url>
-    <loc>https://www.vinayakhora.in/tags/vedic-astrology/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
-  </url><url>
-    <loc>https://www.vinayakhora.in/</loc>
-    <lastmod>2026-07-18T00:44:29+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://www.vinayakhora.in/hi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.vinayakhora.in/"
                 />
   </url><url>
     <loc>https://www.vinayakhora.in/policy/</loc>
