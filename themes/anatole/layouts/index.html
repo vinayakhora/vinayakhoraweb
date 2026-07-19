@@ -41,7 +41,7 @@
         animated fadeInDown
       {{ end }}"
     >
-      {{ if .Params.thumbnail }}
+      {{ if and .Params.thumbnail (not .Params.thumbnailAside) }}
         <div class="post__thumbnail-wrapper">
           <a href="{{ .RelPermalink }}">
             <img class="post__thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" />
@@ -53,6 +53,13 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         {{ else }}
           <h3><a href="{{ .RelPermalink }}">{{ upper .Title }}</a></h3>
+        {{ end }}
+        {{ if and .Params.thumbnail .Params.thumbnailAside }}
+          <div class="post__thumbnail-wrapper--aside">
+            <a href="{{ .RelPermalink }}">
+              <img class="post__thumbnail--aside" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" />
+            </a>
+          </div>
         {{ end }}
         {{ if .Site.Params.fullPostContent }}
           <p>{{ .Content | safeHTML | plainify }}</p>

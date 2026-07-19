@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on विनायक होरा</title>
-    <link>https://www.vinayakhora.in/hi/tags/</link>
+    <link>http://localhost:1313/hi/tags/</link>
     <description>Recent content in Tags on विनायक होरा</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hi</language>
-    <lastBuildDate>Sat, 18 Jul 2026 12:05:00 +0530</lastBuildDate><atom:link href="https://www.vinayakhora.in/hi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jul 2026 12:05:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>अयन बल</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%85%E0%A4%AF%E0%A4%A8-%E0%A4%AC%E0%A4%B2/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%85%E0%A4%AF%E0%A4%A8-%E0%A4%AC%E0%A4%B2/</link>
       <pubDate>Sat, 18 Jul 2026 12:05:00 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%85%E0%A4%AF%E0%A4%A8-%E0%A4%AC%E0%A4%B2/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%85%E0%A4%AF%E0%A4%A8-%E0%A4%AC%E0%A4%B2/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>काल बल</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%95%E0%A4%BE%E0%A4%B2-%E0%A4%AC%E0%A4%B2/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%95%E0%A4%BE%E0%A4%B2-%E0%A4%AC%E0%A4%B2/</link>
       <pubDate>Sat, 18 Jul 2026 12:05:00 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%95%E0%A4%BE%E0%A4%B2-%E0%A4%AC%E0%A4%B2/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%95%E0%A4%BE%E0%A4%B2-%E0%A4%AC%E0%A4%B2/</guid>
       
         <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>क्रांति</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A4%BF/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A4%BF/</link>
       <pubDate>Sat, 18 Jul 2026 12:05:00 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A4%BF/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A4%BF/</guid>
       
         <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>वैदिक ज्योतिष</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%B5%E0%A5%88%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%B5%E0%A5%88%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</link>
       <pubDate>Sat, 18 Jul 2026 12:05:00 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%B5%E0%A5%88%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%B5%E0%A5%88%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</guid>
       
         <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>शड्बल</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%B6%E0%A4%A1%E0%A5%8D%E0%A4%AC%E0%A4%B2/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%B6%E0%A4%A1%E0%A5%8D%E0%A4%AC%E0%A4%B2/</link>
       <pubDate>Sat, 18 Jul 2026 12:05:00 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%B6%E0%A4%A1%E0%A5%8D%E0%A4%AC%E0%A4%B2/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%B6%E0%A4%A1%E0%A5%8D%E0%A4%AC%E0%A4%B2/</guid>
       
         <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>नतोन्नत बल</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%A8%E0%A4%A4%E0%A5%8B%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%A4-%E0%A4%AC%E0%A4%B2/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%A8%E0%A4%A4%E0%A5%8B%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%A4-%E0%A4%AC%E0%A4%B2/</link>
       <pubDate>Sat, 18 Jul 2026 00:44:29 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%A8%E0%A4%A4%E0%A5%8B%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%A4-%E0%A4%AC%E0%A4%B2/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%A8%E0%A4%A4%E0%A5%8B%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%A4-%E0%A4%AC%E0%A4%B2/</guid>
       
         <description></description>
       
@@ -75,10 +75,10 @@
     
     <item>
       <title>बी. वी. रमन</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%AC%E0%A5%80.-%E0%A4%B5%E0%A5%80.-%E0%A4%B0%E0%A4%AE%E0%A4%A8/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%AC%E0%A5%80.-%E0%A4%B5%E0%A5%80.-%E0%A4%B0%E0%A4%AE%E0%A4%A8/</link>
       <pubDate>Sat, 18 Jul 2026 00:44:29 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%AC%E0%A5%80.-%E0%A4%B5%E0%A5%80.-%E0%A4%B0%E0%A4%AE%E0%A4%A8/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%AC%E0%A5%80.-%E0%A4%B5%E0%A5%80.-%E0%A4%B0%E0%A4%AE%E0%A4%A8/</guid>
       
         <description></description>
       
@@ -86,10 +86,10 @@
     
     <item>
       <title>Swiss Ephemeris</title>
-      <link>https://www.vinayakhora.in/hi/tags/swiss-ephemeris/</link>
+      <link>http://localhost:1313/hi/tags/swiss-ephemeris/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/swiss-ephemeris/</guid>
+      <guid>http://localhost:1313/hi/tags/swiss-ephemeris/</guid>
       
         <description></description>
       
@@ -97,10 +97,10 @@
     
     <item>
       <title>कुंडली</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%95%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%B2%E0%A5%80/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%95%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%B2%E0%A5%80/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%95%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%B2%E0%A5%80/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%95%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%B2%E0%A5%80/</guid>
       
         <description></description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title>ज्योतिष</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7/</guid>
       
         <description></description>
       
@@ -119,10 +119,10 @@
     
     <item>
       <title>ज्योतिष शास्त्र</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/</guid>
       
         <description></description>
       
@@ -130,10 +130,10 @@
     
     <item>
       <title>ज्योतिष सॉफ्टवेयर</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B8%E0%A5%89%E0%A4%AB%E0%A5%8D%E0%A4%9F%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B8%E0%A5%89%E0%A4%AB%E0%A5%8D%E0%A4%9F%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B8%E0%A5%89%E0%A4%AB%E0%A5%8D%E0%A4%9F%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%B7-%E0%A4%B8%E0%A5%89%E0%A4%AB%E0%A5%8D%E0%A4%9F%E0%A4%B5%E0%A5%87%E0%A4%AF%E0%A4%B0/</guid>
       
         <description></description>
       
@@ -141,10 +141,10 @@
     
     <item>
       <title>ऋग्वेद</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%A6/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%A6/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%A6/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%A6/</guid>
       
         <description></description>
       
@@ -152,10 +152,10 @@
     
     <item>
       <title>गणेश</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%97%E0%A4%A3%E0%A5%87%E0%A4%B6/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%97%E0%A4%A3%E0%A5%87%E0%A4%B6/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%97%E0%A4%A3%E0%A5%87%E0%A4%B6/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%97%E0%A4%A3%E0%A5%87%E0%A4%B6/</guid>
       
         <description></description>
       
@@ -163,10 +163,10 @@
     
     <item>
       <title>बृहस्पति</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%AC%E0%A5%83%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%A4%E0%A4%BF/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%AC%E0%A5%83%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%A4%E0%A4%BF/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%AC%E0%A5%83%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%A4%E0%A4%BF/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%AC%E0%A5%83%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%A4%E0%A4%BF/</guid>
       
         <description></description>
       
@@ -174,10 +174,10 @@
     
     <item>
       <title>वेद</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%B5%E0%A5%87%E0%A4%A6/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%B5%E0%A5%87%E0%A4%A6/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%B5%E0%A5%87%E0%A4%A6/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%B5%E0%A5%87%E0%A4%A6/</guid>
       
         <description></description>
       
@@ -185,10 +185,10 @@
     
     <item>
       <title>हिंदू दर्शन</title>
-      <link>https://www.vinayakhora.in/hi/tags/%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%82-%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A4%A8/</link>
+      <link>http://localhost:1313/hi/tags/%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%82-%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A4%A8/</link>
       <pubDate>Tue, 23 Dec 2025 14:03:32 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/hi/tags/%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%82-%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A4%A8/</guid>
+      <guid>http://localhost:1313/hi/tags/%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%82-%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A4%A8/</guid>
       
         <description></description>
       

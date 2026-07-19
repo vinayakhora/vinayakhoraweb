@@ -6,7 +6,7 @@
       animated fadeInDown
     {{ end }}"
   >
-    {{ if .Params.thumbnail }}
+    {{ if and .Params.thumbnail (not .Params.thumbnailAside) }}
       <div class="post__thumbnail-wrapper">
         <img class="post__thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" />
       </div>
@@ -51,6 +51,12 @@
       {{- if (eq .Params.toc true) -}}
         {{- partial "toc.html" . -}}
       {{- end -}}
+
+      {{ if and .Params.thumbnail .Params.thumbnailAside }}
+        <div class="post__thumbnail-wrapper--aside">
+          <img class="post__thumbnail--aside" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" />
+        </div>
+      {{ end }}
 
       {{ .Content }}
 

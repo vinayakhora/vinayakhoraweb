@@ -62,7 +62,50 @@
     }
   }
 
+  // Opt-in layout (front matter: thumbnailAside = true) for thumbnails whose
+  // aspect ratio doesn't suit a cropped full-width banner: shown uncropped,
+  // floated beside the description/body text (title stays full-width).
+  &__thumbnail {
+    &-wrapper--aside {
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 1.5em auto;
+      border-radius: var.$radius;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease;
+
+      @include color.themed() {
+        box-shadow: color.t('shadow');
+      }
+
+      @include conf.desktop {
+        @include conf.ltr {
+          float: left;
+          margin: 0 1.5em 1em 0;
+        }
+
+        @include conf.rtl {
+          float: right;
+          margin: 0 0 1em 1.5em;
+        }
+      }
+    }
+
+    &--aside {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+  }
+
   &__content {
+    &::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
     a {
       @include color.themed() {
         color: color.t('info');

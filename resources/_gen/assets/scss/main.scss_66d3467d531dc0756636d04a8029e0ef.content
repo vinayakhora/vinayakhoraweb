@@ -633,6 +633,37 @@ a {
 .theme--dark .post__thumbnail-wrapper {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
+.post__thumbnail-wrapper--aside {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 1.5em auto;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+.theme--light .post__thumbnail-wrapper--aside {
+  box-shadow: 0 8px 24px rgba(140, 106, 0, 0.12);
+}
+.theme--dark .post__thumbnail-wrapper--aside {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+@media screen and (min-width: 961px) {
+  .post__thumbnail-wrapper--aside {
+    float: left;
+    margin: 0 1.5em 1em 0;
+  }
+}
+.post__thumbnail--aside {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+.post__content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .theme--light .post__content a {
   color: #8c6a00;
 }

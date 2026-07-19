@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kaala Bala on Vinayak Hora</title>
-    <link>https://www.vinayakhora.in/tags/kaala-bala/</link>
+    <link>http://localhost:1313/tags/kaala-bala/</link>
     <description>Recent content in Kaala Bala on Vinayak Hora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 12:05:00 +0530</lastBuildDate><atom:link href="https://www.vinayakhora.in/tags/kaala-bala/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jul 2026 12:05:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/kaala-bala/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ayana Bala: Two Ways to Measure the Same Thing (Classical Table vs Modern Trigonometry)</title>
-      <link>https://www.vinayakhora.in/post/ayana-bala-two-methods/</link>
+      <link>http://localhost:1313/post/ayana-bala-two-methods/</link>
       <pubDate>Sat, 18 Jul 2026 12:05:00 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/post/ayana-bala-two-methods/</guid>
+      <guid>http://localhost:1313/post/ayana-bala-two-methods/</guid>
       
         <description>Ayana Bala measures a planet&#39;s strength from its northern or southern course. There are two legitimate ways to compute it — the classical kranti table and modern trigonometry. Here is how each works, why the classical texts use 24 degrees, and how Vinayak Hora and Jagannatha Hora compare on a real chart.</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Natonnata Bala Made Simple: A Planet&#39;s Day–Night Strength (and Why Two Programs Disagree)</title>
-      <link>https://www.vinayakhora.in/post/natonnata-bala-explained/</link>
+      <link>http://localhost:1313/post/natonnata-bala-explained/</link>
       <pubDate>Sat, 18 Jul 2026 00:44:29 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/post/natonnata-bala-explained/</guid>
+      <guid>http://localhost:1313/post/natonnata-bala-explained/</guid>
       
         <description>A plain-language guide to Natonnata Bala — the day/night strength in Shadbala — worked out step by step on a real example chart, and a look at why Vinayak Hora and Jagannatha Hora report different values.</description>
       

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>B.V. Raman on Vinayak Hora</title>
-    <link>https://www.vinayakhora.in/tags/b.v.-raman/</link>
+    <link>http://localhost:1313/tags/b.v.-raman/</link>
     <description>Recent content in B.V. Raman on Vinayak Hora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 00:44:29 +0530</lastBuildDate><atom:link href="https://www.vinayakhora.in/tags/b.v.-raman/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jul 2026 00:44:29 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/b.v.-raman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Natonnata Bala Made Simple: A Planet&#39;s Day–Night Strength (and Why Two Programs Disagree)</title>
-      <link>https://www.vinayakhora.in/post/natonnata-bala-explained/</link>
+      <link>http://localhost:1313/post/natonnata-bala-explained/</link>
       <pubDate>Sat, 18 Jul 2026 00:44:29 +0530</pubDate>
       
-      <guid>https://www.vinayakhora.in/post/natonnata-bala-explained/</guid>
+      <guid>http://localhost:1313/post/natonnata-bala-explained/</guid>
       
         <description>A plain-language guide to Natonnata Bala — the day/night strength in Shadbala — worked out step by step on a real example chart, and a look at why Vinayak Hora and Jagannatha Hora report different values.</description>
       
