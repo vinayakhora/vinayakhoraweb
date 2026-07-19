@@ -55,7 +55,7 @@ enable = true
 [services]
 # Enable Disqus.Disqus.Shortname
   [services.disqus]
-    #shortname = 'your-disqus-shortname'
+    shortname = 'vinayakhora'
 # Google Analytics
   [services.googleAnalytics]
     #ID = 'G-MEASUREMENT_ID'

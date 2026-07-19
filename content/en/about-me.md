@@ -43,7 +43,7 @@ ___
 
 My father was a civil engineer, and my mother, a devoted homemaker.  She nurtured young minds by giving tuitions at home. From them, I learned discipline, sincerity and love for everyone.
 
-I graduated from **Delhi University**, and soon after began my professional journey as a computer programmer with a Delhi-based startup. Over the years, I had the privilege of working with some of the largest corporate organizations such as Goldman Sachs, Reuters, American President Lines (APL), to name a few. My career took me to live and work in **America and England**, where I developed deep expertise in **software engineering and Machine Learning / Artificial Intelligence**.
+I graduated from **Delhi University**, and soon after began my professional journey as a computer programmer with a Delhi-based startup. Over the years, I had the privilege of working with some of the largest corporate organizations such as Goldman Sachs, Reuters, American President Lines (APL), to name a few. My career took me to live and work in **America and England**, where I sharpened my software engineering skills and gained a deeper appreciation for the material and spiritual thought of those societies.
 
 At this stage of my life, I have been fortunate to dedicate my skills and experience to public service. I have served as an **IT consultant to central and state government organizations**, contributing to projects of national importance such as **Aadhaar** and **GST**. My consultancy work has included engagements with the **Ministry of Finance**, **Ministry of Defence**, **Ministry of Agriculture**, and several other government bodies.
 
@@ -51,7 +51,7 @@ Alongside my professional journey, spirituality has remained a constant companio
 
 Being a software professional, I always carried a deep desire to preserve and share my knowledge of astrology through technology. With the inspiration and blessings of **Shri Hanuman Ji**, and heartfelt prayers to **Lord Ganesha**, this long-cherished dream finally took form.
 
-On **1st January 2026**, I published the astrology application **“Vinayak Hora”** on the Google Play Store. This is only the beginning. I see infinite possibilities for enhancing the app, with the next major milestone being the integration of **AI-based predictive capabilities**.
+On **1st January 2026**, I published the astrology application **“Vinayak Hora”** on the Google Play Store. This is only the beginning. Drawing on my professional expertise in **Machine Learning and Artificial Intelligence**, I see infinite possibilities for enhancing the app, with the next major milestone being the integration of **AI-based predictive capabilities**.
 
 This website and application are humble offerings born out of faith, learning, and experience. I sincerely seek your blessings, love, and continued feedback to help improve both the blog and the app.
 
