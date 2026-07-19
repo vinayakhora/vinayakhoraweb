@@ -4,8 +4,8 @@
     {
       "name": "hugo-static",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "1314", "--directory", "C:/Users/rmkap/AppData/Local/Temp/vh-preview-build6"],
-      "port": 1314
+      "runtimeArgs": ["-m", "http.server", "1315", "--directory", "C:/Users/rmkap/AppData/Local/Temp/vh-preview-build9"],
+      "port": 1315
     }
   ]
 }

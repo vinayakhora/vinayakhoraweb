@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.vinayakhora.in/hi/policy/</loc>
+    <lastmod>2026-07-19T23:53:49+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.vinayakhora.in/policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://www.vinayakhora.in/hi/policy/"
+                />
+  </url><url>
+    <loc>https://www.vinayakhora.in/hi/</loc>
+    <lastmod>2026-07-19T23:53:49+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.vinayakhora.in/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://www.vinayakhora.in/hi/"
+                />
+  </url><url>
     <loc>https://www.vinayakhora.in/hi/comments-policy/</loc>
     <lastmod>2026-07-19T00:00:00+05:30</lastmod>
     <xhtml:link
@@ -13,19 +39,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="https://www.vinayakhora.in/hi/comments-policy/"
-                />
-  </url><url>
-    <loc>https://www.vinayakhora.in/hi/</loc>
-    <lastmod>2026-07-19T00:00:00+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.vinayakhora.in/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://www.vinayakhora.in/hi/"
                 />
   </url><url>
     <loc>https://www.vinayakhora.in/hi/categories/</loc>
@@ -119,19 +132,6 @@
   </url><url>
     <loc>https://www.vinayakhora.in/hi/tags/%E0%A4%AC%E0%A5%80.-%E0%A4%B5%E0%A5%80.-%E0%A4%B0%E0%A4%AE%E0%A4%A8/</loc>
     <lastmod>2026-07-18T00:44:29+05:30</lastmod>
-  </url><url>
-    <loc>https://www.vinayakhora.in/hi/policy/</loc>
-    <lastmod>2026-06-28T22:23:49+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.vinayakhora.in/policy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://www.vinayakhora.in/hi/policy/"
-                />
   </url><url>
     <loc>https://www.vinayakhora.in/hi/delete-my-data/</loc>
     <lastmod>2026-06-27T20:20:00+05:30</lastmod>
