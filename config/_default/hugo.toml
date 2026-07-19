@@ -58,4 +58,9 @@ enable = true
     shortname = 'vinayakhora'
 # Google Analytics
   [services.googleAnalytics]
-    #ID = 'G-MEASUREMENT_ID'
+    ID = 'G-1HECL2NX3Q'
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true

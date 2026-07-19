@@ -219,6 +219,10 @@
     {{- partial "analytics/meta.html" . -}}
   {{ end }}
 
+  {{ if and hugo.IsProduction (hasPrefix .Site.Config.Services.GoogleAnalytics.ID "G-") }}
+    {{- template "_internal/google_analytics.html" . -}}
+  {{ end }}
+
 
   <!-- Twitter Cards -->
   {{ template "_internal/twitter_cards.html" . }}

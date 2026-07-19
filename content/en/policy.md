@@ -1,10 +1,10 @@
 +++
 title = 'Privacy Policy'
-date = '2026-06-28T22:23:49+05:30'
+date = '2026-07-19T23:53:49+05:30'
 draft = false
 +++
 
-* **Last Updated:** 28 June 2026
+* **Last Updated:** 19 July 2026
   
 * **Author / Developer:** Ram Mohan Kapil
 * **Application Name:** Vinayak Hora
@@ -47,6 +47,10 @@ When you purchase a subscription through Google Play, we store your **subscripti
 
 Your preferences (language, theme, dashboard layout, calculation options) are stored locally on your device.
 
+### f) Website Analytics (vinayakhora.in)
+
+The **vinayakhora.in** website (separate from the app) uses **Google Analytics** to understand how visitors use the blog — such as pages viewed, approximate location (derived from IP address), device and browser type, and referral source. We have enabled IP anonymization and Do Not Track support where technically possible. This data is not linked to your app account or horoscope data. See [Google's Privacy Policy](https://policies.google.com/privacy) for how Google processes this information.
+
 ## 3. Where Data Is Stored
 
 - **On your device:** an encrypted local database and app preferences.
@@ -84,6 +88,7 @@ We share data only with service providers that operate the app. These providers 
 - **Firebase Analytics**
 - **Firebase Crashlytics** (crash and diagnostics reporting)
 - **Google AdMob** (advertising for the free tier only)
+- **Google Analytics** (website traffic analysis, vinayakhora.in only)
 
 We do **not** share your data with third parties for their own marketing.
 
