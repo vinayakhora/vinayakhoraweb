@@ -1,6 +1,6 @@
 ---
 title: "Temporary Planetary Relationships in Divisional Charts: From Rasi or from the Varga chart Itself?"
-date: 2026-07-24T18:30:00+05:30
+date: 2026-08-01T17:30:00+05:30
 Description: "A planet's dignity in a divisional chart depends on its temporary friendships — but should those be measured in the Rasi chart or inside the varga? Ernst Wilhelm says the Rasi, always. Most modern software recomputes them per varga. We tested both against B.V. Raman's published Saptavargaja Bala, and one of them matches all 49 cells."
 Summary: "A planet's dignity in a divisional chart depends on its temporary friendships — but should those be measured in the Rasi chart or inside the varga? Ernst Wilhelm says the Rasi, always. Most modern software recomputes them per varga. We tested both against B.V. Raman's published Saptavargaja Bala, and one of them matches all 49 cells."
 Tags: ["Divisional Charts", "Varga", "Panchadha Maitri", "Tatkalika Maitri", "Planetary Dignity", "Shadbala", "Vedic Astrology"]
