@@ -224,12 +224,13 @@
   {{ end }}
 
 
-  <!-- Twitter Cards -->
-  {{ template "_internal/twitter_cards.html" . }}
+  <!-- Open Graph + Twitter Cards (see layouts/partials/social-meta.html) -->
+  {{ partial "social-meta.html" . }}
 
-
-  <!-- Open Graph -->
-  {{ template "_internal/opengraph.html" . }}
+  <!-- Share buttons CSS/JS (see layouts/partials/share-assets.html) -->
+  {{ if or (eq .Type "post") (eq .Type .Site.Params.postSectionName) }}
+    {{ partial "share-assets.html" . }}
+  {{ end }}
 
 
   <!-- Schema.org-->

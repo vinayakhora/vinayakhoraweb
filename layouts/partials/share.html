@@ -1,0 +1,84 @@
+{{- /*
+  Share row for single posts.
+
+  Call with:  {{ partial "share.html" (dict "ctx" . "variant" "top") }}
+              {{ partial "share.html" (dict "ctx" . "variant" "bottom") }}
+
+  "top"    - compact row under the post meta line (icons only)
+  "bottom" - full row at the end of the post, with a label
+
+  Uses the native OS share sheet where available (mobile), with explicit
+  per-network fallbacks. This partial emits markup only — the CSS and JS live
+  in layouts/partials/share-assets.html, which is included from <head>.
+*/ -}}
+
+{{- $p := .ctx -}}
+{{- $variant := .variant | default "bottom" -}}
+{{- $url := $p.Permalink -}}
+{{- $title := $p.Title -}}
+{{- $hi := eq site.Language.Lang "hi" -}}
+{{- $t := dict
+  "heading" (cond $hi "यह लेख साझा करें" "Share this post")
+  "share"   (cond $hi "साझा करें" "Share")
+  "whatsapp" "WhatsApp"
+  "facebook" "Facebook"
+  "x"        "X"
+  "linkedin" "LinkedIn"
+  "telegram" "Telegram"
+  "email"   (cond $hi "ईमेल" "Email")
+  "copy"    (cond $hi "लिंक कॉपी करें" "Copy link")
+  "copied"  (cond $hi "कॉपी हो गया!" "Copied!")
+-}}
+
+<div class="post__share post__share--{{ $variant }}" data-share-url="{{ $url }}" data-share-title="{{ $title }}">
+  {{- if eq $variant "bottom" }}
+    <span class="post__share-label">{{ $t.heading }}</span>
+  {{- end }}
+  <div class="post__share-buttons">
+    <button type="button" class="share-btn share-btn--native" hidden title="{{ $t.share }}" aria-label="{{ $t.share }}">
+      <em class="fas fa-share-nodes"></em>
+    </button>
+
+    <a class="share-btn share-btn--whatsapp"
+       href="https://api.whatsapp.com/send?text={{ printf "%s %s" $title $url | urlquery }}"
+       target="_blank" rel="noopener noreferrer" title="{{ $t.whatsapp }}" aria-label="{{ $t.whatsapp }}">
+      <em class="fab fa-whatsapp"></em>
+    </a>
+
+    <a class="share-btn share-btn--facebook"
+       href="https://www.facebook.com/sharer/sharer.php?u={{ $url | urlquery }}"
+       target="_blank" rel="noopener noreferrer" title="{{ $t.facebook }}" aria-label="{{ $t.facebook }}">
+      <em class="fab fa-facebook-f"></em>
+    </a>
+
+    <a class="share-btn share-btn--x"
+       href="https://twitter.com/intent/tweet?url={{ $url | urlquery }}&text={{ $title | urlquery }}"
+       target="_blank" rel="noopener noreferrer" title="{{ $t.x }}" aria-label="{{ $t.x }}">
+      <em class="fab fa-x-twitter"></em>
+    </a>
+
+    <a class="share-btn share-btn--linkedin"
+       href="https://www.linkedin.com/sharing/share-offsite/?url={{ $url | urlquery }}"
+       target="_blank" rel="noopener noreferrer" title="{{ $t.linkedin }}" aria-label="{{ $t.linkedin }}">
+      <em class="fab fa-linkedin-in"></em>
+    </a>
+
+    <a class="share-btn share-btn--telegram"
+       href="https://t.me/share/url?url={{ $url | urlquery }}&text={{ $title | urlquery }}"
+       target="_blank" rel="noopener noreferrer" title="{{ $t.telegram }}" aria-label="{{ $t.telegram }}">
+      <em class="fab fa-telegram"></em>
+    </a>
+
+    <a class="share-btn share-btn--email"
+       href="mailto:?subject={{ $title | urlquery }}&body={{ $url | urlquery }}"
+       title="{{ $t.email }}" aria-label="{{ $t.email }}">
+      <em class="fas fa-envelope"></em>
+    </a>
+
+    <button type="button" class="share-btn share-btn--copy"
+            data-copied-text="{{ $t.copied }}" title="{{ $t.copy }}" aria-label="{{ $t.copy }}">
+      <em class="fas fa-link"></em>
+    </button>
+  </div>
+  <span class="post__share-toast" role="status" aria-live="polite"></span>
+</div>

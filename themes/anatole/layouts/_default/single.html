@@ -43,6 +43,9 @@
             <em class="fas fa-stopwatch post__meta-icon"></em>
             <span class="post__meta-text">{{ i18n "reading_time" .ReadingTime }}</span>
           </li>
+          <li class="post__meta-item post__meta-item--share">
+            {{- partial "share.html" (dict "ctx" . "variant" "top") -}}
+          </li>
         </ul>
       {{ end }}
 
@@ -75,6 +78,9 @@
       {{- if (eq .Site.Params.mermaid.enable true) -}}
         {{- partial "mermaid.html" . -}}
       {{- end -}}
+      {{ if or (eq .Type "post") (eq .Type .Site.Params.postSectionName) }}
+        {{- partial "share.html" (dict "ctx" . "variant" "bottom") -}}
+      {{ end }}
     </div>
     <div class="post__footer">
       {{ with .Page.Params.Categories }}

@@ -1,0 +1,74 @@
+{{- /*
+  Open Graph + Twitter Card meta tags.
+
+  Replaces Hugo's internal opengraph.html / twitter_cards.html, which ignore
+  the Anatole `thumbnail` front-matter param and emit a single site-wide image.
+
+  WhatsApp will not render a WebP preview image, so the thumbnail is converted
+  to JPEG at build time. Source images are mounted from static/images into
+  assets/images (see config/_default/hugo.toml) so Hugo can process them.
+*/ -}}
+
+{{- $title := cond (eq .Kind "home") site.Title (printf "%s | %s" .Title site.Title) -}}
+{{- $desc := "" -}}
+{{- with .Params.description }}{{ $desc = . }}{{ else }}{{ with .Description }}{{ $desc = . }}{{ else }}{{ with .Summary }}{{ $desc = . }}{{ else }}{{ $desc = site.Params.description }}{{ end }}{{ end }}{{ end -}}
+{{- $desc = $desc | plainify | htmlUnescape | chomp -}}
+
+{{- /* Resolve the OG image: post thumbnail -> site fallback */ -}}
+{{- $src := "" -}}
+{{- with .Params.thumbnail }}{{ $src = . }}{{ else }}{{ with site.Params.ogImage }}{{ $src = . }}{{ else }}{{ $src = "images/logo.png" }}{{ end }}{{ end -}}
+{{- $src = strings.TrimPrefix "/" $src -}}
+
+{{- $ogURL := "" -}}
+{{- $ogW := 0 -}}
+{{- $ogH := 0 -}}
+{{- with resources.Get $src -}}
+  {{- $jpg := . -}}
+  {{- if ne .MediaType.SubType "jpeg" -}}
+    {{- $jpg = .Fit "1200x630 jpg q85" -}}
+  {{- else if gt .Width 1200 -}}
+    {{- $jpg = .Fit "1200x630 jpg q85" -}}
+  {{- end -}}
+  {{- $ogURL = $jpg.Permalink -}}
+  {{- $ogW = $jpg.Width -}}
+  {{- $ogH = $jpg.Height -}}
+{{- end -}}
+
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $desc }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:type" content="{{ cond (eq .Kind "page") "article" "website" }}" />
+<meta property="og:locale" content="{{ replace site.Language.Lang "-" "_" }}" />
+{{- with $ogURL }}
+  <meta property="og:image" content="{{ . }}" />
+  <meta property="og:image:secure_url" content="{{ . }}" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="{{ $ogW }}" />
+  <meta property="og:image:height" content="{{ $ogH }}" />
+  <meta property="og:image:alt" content="{{ $title }}" />
+{{- end }}
+
+{{- if eq .Kind "page" }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+  {{- with .Lastmod }}
+    <meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}" />
+  {{- end }}
+  {{- with .Params.categories }}
+    {{- range . }}
+      <meta property="article:section" content="{{ . }}" />
+    {{- end }}
+  {{- end }}
+  {{- with .Params.tags }}
+    {{- range first 6 . }}
+      <meta property="article:tag" content="{{ . }}" />
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+<meta name="twitter:card" content="{{ cond (ne $ogURL "") "summary_large_image" "summary" }}" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $desc }}" />
+{{- with $ogURL }}
+  <meta name="twitter:image" content="{{ . }}" />
+{{- end }}

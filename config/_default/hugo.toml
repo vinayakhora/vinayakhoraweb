@@ -13,6 +13,17 @@ enableRobotsTXT = true
   [caches.images]
     dir = ':cacheDir/images'
 
+# Mount static/images into assets/images as well, so Hugo image processing can
+# read the post thumbnails (needed to generate JPEG Open Graph images, since
+# WhatsApp does not render WebP link previews).
+[module]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
+
 # Syntax highlighting
 pygmentsUseClasses = true   
 pygmentsCodeFences = true
