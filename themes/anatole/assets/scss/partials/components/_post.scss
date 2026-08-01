@@ -106,6 +106,27 @@
       clear: both;
     }
 
+    // Justified body text on the home page and on post pages.
+    // Headings, tables, code and captions are deliberately left alone.
+    p,
+    li,
+    blockquote {
+      text-align: justify;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+    }
+
+    // Don't justify short/structural text where it looks wrong.
+    figcaption,
+    .post__meta,
+    table p,
+    pre,
+    code {
+      text-align: initial;
+      hyphens: manual;
+      -webkit-hyphens: manual;
+    }
+
     a {
       @include color.themed() {
         color: color.t('info');

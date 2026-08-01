@@ -664,6 +664,22 @@ a {
   display: block;
   clear: both;
 }
+.post__content p,
+.post__content li,
+.post__content blockquote {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+.post__content figcaption,
+.post__content .post__meta,
+.post__content table p,
+.post__content pre,
+.post__content code {
+  text-align: initial;
+  hyphens: manual;
+  -webkit-hyphens: manual;
+}
 .theme--light .post__content a {
   color: #8c6a00;
 }
