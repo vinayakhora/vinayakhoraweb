@@ -40,7 +40,7 @@
     </button>
 
     <a class="share-btn share-btn--whatsapp"
-       href="https://api.whatsapp.com/send?text={{ printf "%s %s" $title $url | urlquery }}"
+       href="https://wa.me/?text={{ printf "%s %s" $title $url | urlquery }}"
        target="_blank" rel="noopener noreferrer" title="{{ $t.whatsapp }}" aria-label="{{ $t.whatsapp }}">
       <em class="fab fa-whatsapp"></em>
     </a>

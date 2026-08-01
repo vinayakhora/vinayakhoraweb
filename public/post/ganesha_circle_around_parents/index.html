@@ -234,6 +234,14 @@
 
 <script>
   (function () {
+    function isMobile() {
+      if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
+        return navigator.userAgentData.mobile;
+      }
+      return /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); 
+    }
+
     function init() {
       var boxes = document.querySelectorAll('.post__share');
       Array.prototype.forEach.call(boxes, function (box) {
@@ -252,6 +260,18 @@
         if (nativeBtn && navigator.share) {
           nativeBtn.hidden = false;
           nativeBtn.addEventListener('click', function () {
+            navigator.share({ title: title, url: url }).catch(function () {});
+          });
+        }
+
+        
+        
+        
+        
+        var fbBtn = box.querySelector('.share-btn--facebook');
+        if (fbBtn && navigator.share && isMobile()) {
+          fbBtn.addEventListener('click', function (e) {
+            e.preventDefault();
             navigator.share({ title: title, url: url }).catch(function () {});
           });
         }
@@ -618,7 +638,7 @@
     </button>
 
     <a class="share-btn share-btn--whatsapp"
-       href="https://api.whatsapp.com/send?text=A&#43;Journey&#43;Around&#43;the&#43;World%21&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha_circle_around_parents%2F"
+       href="https://wa.me/?text=A&#43;Journey&#43;Around&#43;the&#43;World%21&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha_circle_around_parents%2F"
        target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp">
       <em class="fab fa-whatsapp"></em>
     </a>
@@ -695,7 +715,7 @@
     </button>
 
     <a class="share-btn share-btn--whatsapp"
-       href="https://api.whatsapp.com/send?text=A&#43;Journey&#43;Around&#43;the&#43;World%21&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha_circle_around_parents%2F"
+       href="https://wa.me/?text=A&#43;Journey&#43;Around&#43;the&#43;World%21&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha_circle_around_parents%2F"
        target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp">
       <em class="fab fa-whatsapp"></em>
     </a>

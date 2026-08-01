@@ -234,6 +234,14 @@
 
 <script>
   (function () {
+    function isMobile() {
+      if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
+        return navigator.userAgentData.mobile;
+      }
+      return /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); 
+    }
+
     function init() {
       var boxes = document.querySelectorAll('.post__share');
       Array.prototype.forEach.call(boxes, function (box) {
@@ -252,6 +260,18 @@
         if (nativeBtn && navigator.share) {
           nativeBtn.hidden = false;
           nativeBtn.addEventListener('click', function () {
+            navigator.share({ title: title, url: url }).catch(function () {});
+          });
+        }
+
+        
+        
+        
+        
+        var fbBtn = box.querySelector('.share-btn--facebook');
+        if (fbBtn && navigator.share && isMobile()) {
+          fbBtn.addEventListener('click', function (e) {
+            e.preventDefault();
             navigator.share({ title: title, url: url }).catch(function () {});
           });
         }
@@ -618,7 +638,7 @@
     </button>
 
     <a class="share-btn share-btn--whatsapp"
-       href="https://api.whatsapp.com/send?text=%E0%A4%A6%E0%A5%81%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE&#43;%E0%A4%95%E0%A5%80&#43;%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE&#43;%E0%A4%95%E0%A5%80&#43;%E0%A4%8F%E0%A4%95&#43;%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AD%E0%A5%81%E0%A4%A4&#43;%E0%A4%AF%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE%21&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fhi%2Fpost%2Fganesha_circle_around_parents%2F"
+       href="https://wa.me/?text=%E0%A4%A6%E0%A5%81%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE&#43;%E0%A4%95%E0%A5%80&#43;%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE&#43;%E0%A4%95%E0%A5%80&#43;%E0%A4%8F%E0%A4%95&#43;%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AD%E0%A5%81%E0%A4%A4&#43;%E0%A4%AF%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE%21&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fhi%2Fpost%2Fganesha_circle_around_parents%2F"
        target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp">
       <em class="fab fa-whatsapp"></em>
     </a>
@@ -695,7 +715,7 @@
     </button>
 
     <a class="share-btn share-btn--whatsapp"
-       href="https://api.whatsapp.com/send?text=%E0%A4%A6%E0%A5%81%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE&#43;%E0%A4%95%E0%A5%80&#43;%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE&#43;%E0%A4%95%E0%A5%80&#43;%E0%A4%8F%E0%A4%95&#43;%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AD%E0%A5%81%E0%A4%A4&#43;%E0%A4%AF%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE%21&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fhi%2Fpost%2Fganesha_circle_around_parents%2F"
+       href="https://wa.me/?text=%E0%A4%A6%E0%A5%81%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE&#43;%E0%A4%95%E0%A5%80&#43;%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE&#43;%E0%A4%95%E0%A5%80&#43;%E0%A4%8F%E0%A4%95&#43;%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AD%E0%A5%81%E0%A4%A4&#43;%E0%A4%AF%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE%21&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fhi%2Fpost%2Fganesha_circle_around_parents%2F"
        target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp">
       <em class="fab fa-whatsapp"></em>
     </a>

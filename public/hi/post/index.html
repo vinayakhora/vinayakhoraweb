@@ -233,6 +233,14 @@
 
 <script>
   (function () {
+    function isMobile() {
+      if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
+        return navigator.userAgentData.mobile;
+      }
+      return /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); 
+    }
+
     function init() {
       var boxes = document.querySelectorAll('.post__share');
       Array.prototype.forEach.call(boxes, function (box) {
@@ -251,6 +259,18 @@
         if (nativeBtn && navigator.share) {
           nativeBtn.hidden = false;
           nativeBtn.addEventListener('click', function () {
+            navigator.share({ title: title, url: url }).catch(function () {});
+          });
+        }
+
+        
+        
+        
+        
+        var fbBtn = box.querySelector('.share-btn--facebook');
+        if (fbBtn && navigator.share && isMobile()) {
+          fbBtn.addEventListener('click', function (e) {
+            e.preventDefault();
             navigator.share({ title: title, url: url }).catch(function () {});
           });
         }

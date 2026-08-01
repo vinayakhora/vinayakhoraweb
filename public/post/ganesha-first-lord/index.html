@@ -241,6 +241,14 @@
 
 <script>
   (function () {
+    function isMobile() {
+      if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
+        return navigator.userAgentData.mobile;
+      }
+      return /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); 
+    }
+
     function init() {
       var boxes = document.querySelectorAll('.post__share');
       Array.prototype.forEach.call(boxes, function (box) {
@@ -259,6 +267,18 @@
         if (nativeBtn && navigator.share) {
           nativeBtn.hidden = false;
           nativeBtn.addEventListener('click', function () {
+            navigator.share({ title: title, url: url }).catch(function () {});
+          });
+        }
+
+        
+        
+        
+        
+        var fbBtn = box.querySelector('.share-btn--facebook');
+        if (fbBtn && navigator.share && isMobile()) {
+          fbBtn.addEventListener('click', function (e) {
+            e.preventDefault();
             navigator.share({ title: title, url: url }).catch(function () {});
           });
         }
@@ -660,7 +680,7 @@
     </button>
 
     <a class="share-btn share-btn--whatsapp"
-       href="https://api.whatsapp.com/send?text=Why&#43;Lord&#43;Ganesha&#43;Is&#43;Worshipped&#43;First&#43;%E2%80%94&#43;A&#43;Vedic&#43;Perspective&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha-first-lord%2F"
+       href="https://wa.me/?text=Why&#43;Lord&#43;Ganesha&#43;Is&#43;Worshipped&#43;First&#43;%E2%80%94&#43;A&#43;Vedic&#43;Perspective&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha-first-lord%2F"
        target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp">
       <em class="fab fa-whatsapp"></em>
     </a>
@@ -843,7 +863,7 @@ Thus, the Vedic system requires Brahmanaspati to be invoked <strong>first by nec
     </button>
 
     <a class="share-btn share-btn--whatsapp"
-       href="https://api.whatsapp.com/send?text=Why&#43;Lord&#43;Ganesha&#43;Is&#43;Worshipped&#43;First&#43;%E2%80%94&#43;A&#43;Vedic&#43;Perspective&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha-first-lord%2F"
+       href="https://wa.me/?text=Why&#43;Lord&#43;Ganesha&#43;Is&#43;Worshipped&#43;First&#43;%E2%80%94&#43;A&#43;Vedic&#43;Perspective&#43;https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha-first-lord%2F"
        target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp">
       <em class="fab fa-whatsapp"></em>
     </a>
