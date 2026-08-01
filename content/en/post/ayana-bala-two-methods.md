@@ -2,6 +2,7 @@
 title: "Ayana Bala: Two Ways to Measure the Same Thing (Classical Table vs Modern Trigonometry)"
 date: 2026-07-18T12:05:00+05:30
 Description: "Ayana Bala measures a planet's strength from its northern or southern course. There are two legitimate ways to compute it — the classical kranti table and modern trigonometry. Here is how each works, why the classical texts use 24 degrees, and how Vinayak Hora and Jagannatha Hora compare on a real chart."
+summary: "Ayana Bala measures a planet's strength from its northern or southern course. There are two legitimate ways to compute it — the classical kranti table and modern trigonometry. Here is how each works, why the classical texts use 24 degrees, and how Vinayak Hora and Jagannatha Hora compare on a real chart."
 Tags: ["Shadbala", "Ayana Bala", "Kaala Bala", "Declination", "Vedic Astrology"]
 Categories: ["Vedic Astrology", "Shadbala"]
 DisableComments: false

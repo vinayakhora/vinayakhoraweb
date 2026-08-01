@@ -2,6 +2,7 @@
 title: "Natonnata Bala Made Simple: A Planet's Day–Night Strength (and Why Two Programs Disagree)"
 date: 2026-07-18T00:44:29+05:30
 Description: "A plain-language guide to Natonnata Bala — the day/night strength in Shadbala — worked out step by step on a real example chart, and a look at why Vinayak Hora and Jagannatha Hora report different values."
+summary: "A plain-language guide to Natonnata Bala — the day/night strength in Shadbala — worked out step by step on a real example chart, and a look at why Vinayak Hora and Jagannatha Hora report different values."
 Tags: ["Shadbala", "Natonnata Bala", "Kaala Bala", "Vedic Astrology", "B.V. Raman"]
 Categories: ["Vedic Astrology", "Shadbala"]
 DisableComments: false
