@@ -1,4 +1,5 @@
 @use 'modules/color_theme' as color;
+@use 'modules/config' as conf;
 
 .archive {
   margin: 30px;
@@ -16,26 +17,43 @@
   &__list {
     padding: 0;
 
+    // Block rather than flex, so a long title wraps *around* the thumbnail
+    // instead of being confined to a column beside it. The thumbnail and the
+    // date are floated; the title is normal inline flow between them.
     &-item {
-      display: flex;
-      align-items: center;
-      gap: 0.85em;
-      justify-content: space-between;
-      padding-bottom: 5px;
+      display: block;
+      padding-bottom: 14px;
       list-style-type: none;
+
+      // contain the floats
+      &::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
     }
 
     // Small thumbnail preceding each entry. Fixed 1.91:1 box so the row height
     // stays constant whatever the source image's ratio is; posts without a
     // thumbnail simply have no box and the title starts at the left edge.
     &-thumb {
-      flex: 0 0 auto;
       display: block;
       width: 152px;
       aspect-ratio: 1200 / 630;
       border-radius: 8px;
       overflow: hidden;
       line-height: 0;
+      margin-bottom: 0.4em;
+
+      @include conf.ltr {
+        float: left;
+        margin-right: 0.9em;
+      }
+
+      @include conf.rtl {
+        float: right;
+        margin-left: 0.9em;
+      }
 
       @supports not (aspect-ratio: 1 / 1) {
         height: 80px;
@@ -54,17 +72,31 @@
       }
     }
 
+    // Floated opposite the thumbnail so the title text flows between the two.
     &-date {
-      text-align: right;
+      white-space: nowrap;
+
+      @include conf.ltr {
+        float: right;
+        margin-left: 0.9em;
+        text-align: right;
+      }
+
+      @include conf.rtl {
+        float: left;
+        margin-right: 0.9em;
+        text-align: left;
+      }
 
       @include color.themed() {
         color: color.t('primary-light');
       }
     }
 
+    // Inline (not inline-block) so long titles wrap line by line around the
+    // floated thumbnail rather than sitting in a rigid column beside it.
     &-title {
-      display: inline-block;
-      flex: 0.96;
+      display: inline;
 
       @include color.themed() {
         color: color.t('primary');
