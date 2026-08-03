@@ -18,9 +18,40 @@
 
     &-item {
       display: flex;
+      align-items: center;
+      gap: 0.85em;
       justify-content: space-between;
       padding-bottom: 5px;
       list-style-type: none;
+    }
+
+    // Small thumbnail preceding each entry. Fixed 1.91:1 box so the row height
+    // stays constant whatever the source image's ratio is; posts without a
+    // thumbnail simply have no box and the title starts at the left edge.
+    &-thumb {
+      flex: 0 0 auto;
+      display: block;
+      width: 152px;
+      aspect-ratio: 1200 / 630;
+      border-radius: 8px;
+      overflow: hidden;
+      line-height: 0;
+
+      @supports not (aspect-ratio: 1 / 1) {
+        height: 80px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.3s ease;
+      }
+
+      &:hover img {
+        transform: scale(1.06);
+      }
     }
 
     &-date {

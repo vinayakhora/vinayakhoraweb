@@ -8,7 +8,7 @@
   >
     {{ if and .Params.thumbnail (not .Params.thumbnailAside) }}
       <div class="post__thumbnail-wrapper">
-        <img class="post__thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" />
+        <img class="post__thumbnail" src="{{ partial "thumb-url.html" (dict "src" .Params.thumbnail) }}" alt="Thumbnail image" />
       </div>
     {{ end }}
     <div class="post__content">
@@ -57,7 +57,7 @@
 
       {{ if and .Params.thumbnail .Params.thumbnailAside }}
         <div class="post__thumbnail-wrapper--aside">
-          <img class="post__thumbnail--aside" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" />
+          <img class="post__thumbnail--aside" src="{{ partial "thumb-url.html" (dict "src" .Params.thumbnail) }}" alt="Thumbnail image" />
         </div>
       {{ end }}
 

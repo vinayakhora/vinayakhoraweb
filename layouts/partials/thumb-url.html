@@ -1,0 +1,27 @@
+{{- /*
+  Returns a cache-busted URL for a thumbnail.
+
+  Call: {{ partial "thumb-url.html" (dict "src" .Params.thumbnail) }}
+
+  Why: files served straight out of static/ keep the same URL when their contents
+  change, so browsers and the CDN go on serving the stale copy. Fingerprinting
+  appends a hash of the file's own bytes to the name -
+
+      images/foo_tn.webp  ->  images/foo_tn.a1b2c3....webp
+
+  so re-exporting an image automatically produces a new URL. Nothing to rename,
+  no version counter to remember to bump, and an unchanged image keeps its URL
+  (so it stays cached, which is what you want).
+
+  Requires static/images to be mounted into assets/images - see
+  config/_default/hugo.toml.
+
+  Falls back to the plain static path if the file isn't found as a resource, so a
+  missing mount degrades to today's behaviour rather than an empty src.
+*/ -}}
+{{- $src := strings.TrimPrefix "/" .src -}}
+{{- $url := .src | relURL -}}
+{{- with resources.Get $src -}}
+  {{- $url = (. | fingerprint "md5").RelPermalink -}}
+{{- end -}}
+{{- return $url -}}

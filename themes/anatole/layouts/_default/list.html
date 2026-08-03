@@ -11,6 +11,11 @@
       {{ range .Pages }}
         <ul class="archive__list">
           <li class="archive__list-item">
+            {{ with .Params.thumbnail }}
+              <a class="archive__list-thumb" href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true">
+                <img src="{{ partial "thumb-url.html" (dict "src" .) }}" alt="" loading="lazy" />
+              </a>
+            {{ end }}
             {{ if (eq .Site.Params.disableArchiveTitleStyling true) }}
               <a class="archive__list-title" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
             {{ else }}

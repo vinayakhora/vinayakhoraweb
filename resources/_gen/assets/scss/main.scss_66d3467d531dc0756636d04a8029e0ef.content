@@ -1069,9 +1069,35 @@ a {
 }
 .archive__list-item {
   display: flex;
+  align-items: center;
+  gap: 0.85em;
   justify-content: space-between;
   padding-bottom: 5px;
   list-style-type: none;
+}
+.archive__list-thumb {
+  flex: 0 0 auto;
+  display: block;
+  width: 152px;
+  aspect-ratio: 1200/630;
+  border-radius: 8px;
+  overflow: hidden;
+  line-height: 0;
+}
+@supports not (aspect-ratio: 1/1) {
+  .archive__list-thumb {
+    height: 80px;
+  }
+}
+.archive__list-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.archive__list-thumb:hover img {
+  transform: scale(1.06);
 }
 .archive__list-date {
   text-align: right;
