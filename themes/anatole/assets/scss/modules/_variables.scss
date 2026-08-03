@@ -6,14 +6,19 @@ $primary-light--lightmode: #9c8256;
 $primary-lighter--lightmode: #f1e4c0;
 $shadow--lightmode: 0 8px 24px rgba(140, 106, 0, 0.12);
 
-$accent--darkmode: #1e1811;
-$primary--darkmode: #f1e4c0;
-$primary-light--darkmode: #b79f6e;
-$primary-lighter--darkmode: #362c1a;
-$shadow--darkmode: 0 8px 24px rgba(0, 0, 0, 0.45);
+// Dark mode: deep navy ground with soft light-blue text.
+// Text is deliberately held back from full brightness - near-white on a very
+// dark ground causes halation (the glow/blur effect that tires the eyes), so
+// these sit around 10:1 rather than 14:1. Still comfortably WCAG AAA:
+// body 10.8:1, muted 6.5:1, links 7.3:1.
+$accent--darkmode: #070d20; // page + card background
+$primary--darkmode: #b0c4dd; // body text
+$primary-light--darkmode: #8098b6; // muted text: dates, meta
+$primary-lighter--darkmode: #16233d; // borders, code-block background
+$shadow--darkmode: 0 8px 24px rgba(0, 6, 20, 0.6);
 
 $info--lightmode: #8c6a00;
-$info--darkmode: #e0b23c;
+$info--darkmode: #6ea0ea; // links
 
 $warning: #ffc107;
 $success: #51d88a;
