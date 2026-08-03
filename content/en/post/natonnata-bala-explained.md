@@ -7,8 +7,9 @@ Tags: ["Shadbala", "Natonnata Bala", "Kaala Bala", "Vedic Astrology", "B.V. Rama
 Categories: ["Vedic Astrology", "Shadbala"]
 DisableComments: false
 draft: false
-thumbnail: "images/natonnata-bala.webp"
-thumbnailAside: true
+thumbnail: "images/natonnata_bala_tn.webp"
+ogImage: "images/natonnata_bala_tn.jpg"
+thumbnailAside: false
 ---
 
 ## Where Natonnata Bala fits in Shadbala

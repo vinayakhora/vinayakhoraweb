@@ -65,6 +65,9 @@
      (three classes), otherwise the base grey background wins. */
   .post__share .post__share-buttons .share-btn--whatsapp { background: #25d366; }
   .post__share .post__share-buttons .share-btn--facebook { background: #1877f2; }
+  .post__share .post__share-buttons .share-btn--instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  }
   .post__share .post__share-buttons .share-btn--x        { background: #000000; }
   .post__share .post__share-buttons .share-btn--linkedin { background: #0a66c2; }
   .post__share .post__share-buttons .share-btn--telegram { background: #229ed9; }
@@ -120,23 +123,41 @@
         // cannot be overridden from the web. sharer.php always opens the feed
         // composer, so it is left alone here.
 
+        function copyUrl(then) {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(then).catch(then);
+            return;
+          }
+          var tmp = document.createElement('textarea');
+          tmp.value = url;
+          tmp.setAttribute('readonly', '');
+          tmp.style.position = 'absolute';
+          tmp.style.left = '-9999px';
+          document.body.appendChild(tmp);
+          tmp.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(tmp);
+          then();
+        }
+
         var copyBtn = box.querySelector('.share-btn--copy');
         if (copyBtn) {
           copyBtn.addEventListener('click', function () {
-            var done = function () { flash(copyBtn.getAttribute('data-copied-text')); };
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-              navigator.clipboard.writeText(url).then(done).catch(function () {});
-            } else {
-              var tmp = document.createElement('textarea');
-              tmp.value = url;
-              tmp.setAttribute('readonly', '');
-              tmp.style.position = 'absolute';
-              tmp.style.left = '-9999px';
-              document.body.appendChild(tmp);
-              tmp.select();
-              try { document.execCommand('copy'); done(); } catch (e) {}
-              document.body.removeChild(tmp);
-            }
+            copyUrl(function () { flash(copyBtn.getAttribute('data-copied-text')); });
+          });
+        }
+
+        // Instagram accepts no shared links from the web - not via a sharer URL,
+        // not via a deep link. The only workable pattern is to put the URL on the
+        // clipboard and open Instagram so the user can paste it into a story,
+        // a DM or their bio.
+        var igBtn = box.querySelector('.share-btn--instagram');
+        if (igBtn) {
+          igBtn.addEventListener('click', function () {
+            copyUrl(function () {
+              flash(igBtn.getAttribute('data-copied-text'));
+              window.open('https://www.instagram.com/', '_blank', 'noopener');
+            });
           });
         }
       });

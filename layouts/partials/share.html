@@ -28,6 +28,8 @@
   "email"   (cond $hi "ईमेल" "Email")
   "copy"    (cond $hi "लिंक कॉपी करें" "Copy link")
   "copied"  (cond $hi "कॉपी हो गया!" "Copied!")
+  "instagram"     (cond $hi "इंस्टाग्राम — लिंक कॉपी करके खोलें" "Instagram — copies the link, then opens Instagram")
+  "instagramDone" (cond $hi "लिंक कॉपी हो गया — इंस्टाग्राम में पेस्ट करें" "Link copied — paste it into Instagram")
 -}}
 
 <div class="post__share post__share--{{ $variant }}" data-share-url="{{ $url }}" data-share-title="{{ $title }}">
@@ -50,6 +52,13 @@
        target="_blank" rel="noopener noreferrer" title="{{ $t.facebook }}" aria-label="{{ $t.facebook }}">
       <em class="fab fa-facebook-f"></em>
     </a>
+
+    {{- /* Instagram has no link-share endpoint of any kind, so this copies the
+           URL and opens Instagram for the user to paste. */ -}}
+    <button type="button" class="share-btn share-btn--instagram"
+            data-copied-text="{{ $t.instagramDone }}" title="{{ $t.instagram }}" aria-label="{{ $t.instagram }}">
+      <em class="fab fa-instagram"></em>
+    </button>
 
     <a class="share-btn share-btn--x"
        href="https://twitter.com/intent/tweet?url={{ $url | urlquery }}&text={{ $title | urlquery }}"

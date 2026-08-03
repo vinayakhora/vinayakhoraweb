@@ -7,8 +7,9 @@ tags: ["वर्ग कुण्डली", "पञ्चधा मैत्र
 categories: ["वैदिक ज्योतिष", "वर्ग कुण्डली"]
 disableComments: false
 draft: false
-thumbnail: "images/tatkalika-maitri-varga-charts.webp"
-thumbnailAside: true
+thumbnail: "images/tatkalika_maitri_in_varga_charts_tn.webp"
+ogImage: "images/tatkalika_maitri_in_varga_charts_tn.jpg"
+thumbnailAside: false
 ---
 
 ## एक छोटा प्रश्न, बड़े परिणाम

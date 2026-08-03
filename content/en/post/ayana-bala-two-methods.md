@@ -7,8 +7,9 @@ Tags: ["Shadbala", "Ayana Bala", "Kaala Bala", "Declination", "Vedic Astrology"]
 Categories: ["Vedic Astrology", "Shadbala"]
 DisableComments: false
 draft: false
-thumbnail: "images/ayana-bala.webp"
-thumbnailAside: true
+thumbnail: "images/ayana_bala_tn.webp"
+ogImage: "images/ayana_bala_tn.jpg"
+thumbnailAside: false
 ---
 
 ## Where Ayana Bala fits in Shadbala

@@ -19,16 +19,24 @@
 {{- with .Params.thumbnail }}{{ $src = . }}{{ else }}{{ with site.Params.ogImage }}{{ $src = . }}{{ else }}{{ $src = "images/logo.png" }}{{ end }}{{ end -}}
 {{- $src = strings.TrimPrefix "/" $src -}}
 
+{{- /*
+  Facebook, LinkedIn and WhatsApp render the large preview at 1.91:1 (1200x630).
+
+  Best practice is a purpose-made landscape image per post, set with `ogImage`
+  in front matter (see static/images/*-og.jpg). Those are already 1200x630, so
+  Fill is a straight resize and nothing is cropped.
+
+  Where no `ogImage` exists we fall back to the square thumbnail, which Fill
+  centre-crops to 1.91:1 - acceptable, but the artwork's top and bottom are lost,
+  so prefer an explicit ogImage for any post that matters.
+
+  WebP is converted to JPEG because WhatsApp will not render a WebP preview.
+*/ -}}
 {{- $ogURL := "" -}}
 {{- $ogW := 0 -}}
 {{- $ogH := 0 -}}
 {{- with resources.Get $src -}}
-  {{- $jpg := . -}}
-  {{- if ne .MediaType.SubType "jpeg" -}}
-    {{- $jpg = .Fit "1200x630 jpg q85" -}}
-  {{- else if gt .Width 1200 -}}
-    {{- $jpg = .Fit "1200x630 jpg q85" -}}
-  {{- end -}}
+  {{- $jpg := .Fill "1200x630 Center jpg q88" -}}
   {{- $ogURL = $jpg.Permalink -}}
   {{- $ogW = $jpg.Width -}}
   {{- $ogH = $jpg.Height -}}

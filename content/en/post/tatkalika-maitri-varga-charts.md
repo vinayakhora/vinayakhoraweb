@@ -7,8 +7,9 @@ Tags: ["Divisional Charts", "Varga", "Panchadha Maitri", "Tatkalika Maitri", "Pl
 Categories: ["Vedic Astrology", "Divisional Charts"]
 DisableComments: false
 draft: false
-thumbnail: "images/tatkalika-maitri-varga-charts.webp"
-thumbnailAside: true
+thumbnail: "images/tatkalika_maitri_in_varga_charts_tn.webp"
+ogImage: "images/tatkalika_maitri_in_varga_charts_tn.jpg"
+thumbnailAside: false
 ---
 
 ## A Small Question with Big Consequences

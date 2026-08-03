@@ -43,21 +43,37 @@
     }
   }
 
+  // Full-width banner thumbnail (front matter: thumbnailAside = false).
+  // Sized by aspect ratio rather than a fixed height, so a 1200x630 social-card
+  // image lands edge to edge with nothing cropped. Other ratios are cover-cropped
+  // to the same shape, which keeps every card on the home page uniform.
   &__thumbnail {
     width: 100%;
-    height: var.$thumbnail-height;
+    height: 100%;
     object-fit: cover;
+    object-position: center;
     display: block;
+    transition: transform 0.4s ease;
 
     &-wrapper {
       border-radius: var.$radius;
       width: 100%;
-      margin-bottom: 1em;
+      aspect-ratio: 1200 / 630;
+      margin-bottom: 1.25em;
       overflow: hidden;
       transition: box-shadow 0.3s ease;
 
       @include color.themed() {
         box-shadow: color.t('shadow');
+      }
+
+      // Fallback for browsers without aspect-ratio support.
+      @supports not (aspect-ratio: 1 / 1) {
+        height: var.$thumbnail-height;
+      }
+
+      &:hover .post__thumbnail {
+        transform: scale(1.03);
       }
     }
   }

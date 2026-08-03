@@ -8,8 +8,9 @@ tags: ["षड्बल", "नतोन्नत बल", "काल बल", "�
 categories: ["वैदिक ज्योतिष", "षड्बल"]
 disableComments: false
 draft: false
-thumbnail: "images/natonnata-bala.webp"
-thumbnailAside: true
+thumbnail: "images/natonnata_bala_tn.webp"
+ogImage: "images/natonnata_bala_tn.jpg"
+thumbnailAside: false
 ---
 
 # नतोन्नत बल को सरल भाषा में समझें: ग्रहों का दिन–रात्रि बल और दो सॉफ़्टवेयर अलग परिणाम क्यों देते हैं

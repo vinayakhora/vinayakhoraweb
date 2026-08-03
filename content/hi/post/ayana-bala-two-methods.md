@@ -7,8 +7,9 @@ tags: ["षड्बल", "अयन बल", "काल बल", "क्रा�
 categories: ["वैदिक ज्योतिष", "षड्बल"]
 disableComments: false
 draft: false
-thumbnail: "images/ayana-bala.webp"
-thumbnailAside: true
+thumbnail: "images/ayana_bala_tn.webp"
+ogImage: "images/ayana_bala_tn.jpg"
+thumbnailAside: false
 ---
 
 

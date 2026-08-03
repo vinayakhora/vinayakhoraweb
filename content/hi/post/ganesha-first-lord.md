@@ -5,6 +5,9 @@ draft = false
 description= "भगवान गणेश की प्रथम-पूजा का वैदिक कारण — ऋग्वेद और अन्य प्राचीन संस्कृत ग्रंथों के मूल संदर्भों के साथ।"
 tags= ["वेद", "गणेश", "हिंदू दर्शन", "ऋग्वेद", "बृहस्पति"]
 categories= ["भारतीय दर्शन", "धर्मशास्त्र"]
+thumbnail = "images/why_ganesha_first_lord_tn.webp"
+ogImage = "images/why_ganesha_first_lord_tn.jpg"
+thumbnailAside = false
 +++
 
 ## भूमिका

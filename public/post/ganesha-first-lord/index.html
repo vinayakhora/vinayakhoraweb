@@ -24,7 +24,7 @@
   />
   
   
-        <link rel="stylesheet" href="/css/anatole.min.5c66bc7ac3384c7d1aa8a8328f56140eef0c10ac68ca7b8437c7b30f8f2c53f7.css" integrity="sha256-XGa8esM4TH0aqKgyj1YUDu8MEKxoynuEN8ezD48sU/c=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="/css/anatole.min.a24f87d27a7159b1ff1fb31ec589e4984d4b4e3ef0e8f5709177daebf1ab5de1.css" integrity="sha256-ok&#43;H0npxWbH/H7MexYnkmE1LTj7w6PVwkXfa6/GrXeE=" crossorigin="anonymous" />
       
   <link
     rel="stylesheet"
@@ -131,10 +131,10 @@
 <meta property="og:url" content="https://www.vinayakhora.in/post/ganesha-first-lord/" />
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="en" />
-  <meta property="og:image" content="https://www.vinayakhora.in/images/logo_hu_d2aceb965f19ae4e.jpg" />
-  <meta property="og:image:secure_url" content="https://www.vinayakhora.in/images/logo_hu_d2aceb965f19ae4e.jpg" />
+  <meta property="og:image" content="https://www.vinayakhora.in/images/why_ganesha_first_lord_tn_hu_6f55b0c51f1a7b0e.jpg" />
+  <meta property="og:image:secure_url" content="https://www.vinayakhora.in/images/why_ganesha_first_lord_tn_hu_6f55b0c51f1a7b0e.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="637" />
+  <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Why Lord Ganesha Is Worshipped First — A Vedic Perspective | Vinayak Hora" />
   <meta property="article:published_time" content="2025-12-23T14:03:32&#43;05:30" />
@@ -150,7 +150,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Why Lord Ganesha Is Worshipped First — A Vedic Perspective | Vinayak Hora" />
 <meta name="twitter:description" content="A strictly Vedic explanation of why Lord Ganesha is considered first among all gods, with citations from classical Sanskrit texts." />
-  <meta name="twitter:image" content="https://www.vinayakhora.in/images/logo_hu_d2aceb965f19ae4e.jpg" />
+  <meta name="twitter:image" content="https://www.vinayakhora.in/images/why_ganesha_first_lord_tn_hu_6f55b0c51f1a7b0e.jpg" />
 
 
   
@@ -215,6 +215,9 @@
    
   .post__share .post__share-buttons .share-btn--whatsapp { background: #25d366; }
   .post__share .post__share-buttons .share-btn--facebook { background: #1877f2; }
+  .post__share .post__share-buttons .share-btn--instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  }
   .post__share .post__share-buttons .share-btn--x        { background: #000000; }
   .post__share .post__share-buttons .share-btn--linkedin { background: #0a66c2; }
   .post__share .post__share-buttons .share-btn--telegram { background: #229ed9; }
@@ -270,23 +273,41 @@
         
         
 
+        function copyUrl(then) {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(then).catch(then);
+            return;
+          }
+          var tmp = document.createElement('textarea');
+          tmp.value = url;
+          tmp.setAttribute('readonly', '');
+          tmp.style.position = 'absolute';
+          tmp.style.left = '-9999px';
+          document.body.appendChild(tmp);
+          tmp.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(tmp);
+          then();
+        }
+
         var copyBtn = box.querySelector('.share-btn--copy');
         if (copyBtn) {
           copyBtn.addEventListener('click', function () {
-            var done = function () { flash(copyBtn.getAttribute('data-copied-text')); };
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-              navigator.clipboard.writeText(url).then(done).catch(function () {});
-            } else {
-              var tmp = document.createElement('textarea');
-              tmp.value = url;
-              tmp.setAttribute('readonly', '');
-              tmp.style.position = 'absolute';
-              tmp.style.left = '-9999px';
-              document.body.appendChild(tmp);
-              tmp.select();
-              try { document.execCommand('copy'); done(); } catch (e) {}
-              document.body.removeChild(tmp);
-            }
+            copyUrl(function () { flash(copyBtn.getAttribute('data-copied-text')); });
+          });
+        }
+
+        
+        
+        
+        
+        var igBtn = box.querySelector('.share-btn--instagram');
+        if (igBtn) {
+          igBtn.addEventListener('click', function () {
+            copyUrl(function () {
+              flash(igBtn.getAttribute('data-copied-text'));
+              window.open('https://www.instagram.com/', '_blank', 'noopener');
+            });
           });
         }
       });
@@ -639,6 +660,10 @@
     "
   >
     
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/images/why_ganesha_first_lord_tn.webp" alt="Thumbnail image" />
+      </div>
+    
     <div class="post__content">
       
         <h1>Why Lord Ganesha Is Worshipped First — A Vedic Perspective</h1>
@@ -676,7 +701,10 @@
        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha-first-lord%2F"
        target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook">
       <em class="fab fa-facebook-f"></em>
-    </a>
+    </a><button type="button" class="share-btn share-btn--instagram"
+            data-copied-text="Link copied — paste it into Instagram" title="Instagram — copies the link, then opens Instagram" aria-label="Instagram — copies the link, then opens Instagram">
+      <em class="fab fa-instagram"></em>
+    </button>
 
     <a class="share-btn share-btn--x"
        href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha-first-lord%2F&text=Why&#43;Lord&#43;Ganesha&#43;Is&#43;Worshipped&#43;First&#43;%E2%80%94&#43;A&#43;Vedic&#43;Perspective"
@@ -859,7 +887,10 @@ Thus, the Vedic system requires Brahmanaspati to be invoked <strong>first by nec
        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha-first-lord%2F"
        target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook">
       <em class="fab fa-facebook-f"></em>
-    </a>
+    </a><button type="button" class="share-btn share-btn--instagram"
+            data-copied-text="Link copied — paste it into Instagram" title="Instagram — copies the link, then opens Instagram" aria-label="Instagram — copies the link, then opens Instagram">
+      <em class="fab fa-instagram"></em>
+    </button>
 
     <a class="share-btn share-btn--x"
        href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.vinayakhora.in%2Fpost%2Fganesha-first-lord%2F&text=Why&#43;Lord&#43;Ganesha&#43;Is&#43;Worshipped&#43;First&#43;%E2%80%94&#43;A&#43;Vedic&#43;Perspective"

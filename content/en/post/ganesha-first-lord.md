@@ -6,6 +6,9 @@ title = "Why Lord Ganesha Is Worshipped First — A Vedic Perspective"
 description = "A strictly Vedic explanation of why Lord Ganesha is considered first among all gods, with citations from classical Sanskrit texts."
 tags = ["Vedas", "Ganesha", "Hindu Philosophy", "Rig Veda", "Brahmanaspati"]
 categories = ["Indic Studies", "Theology"]
+thumbnail = "images/why_ganesha_first_lord_tn.webp"
+ogImage = "images/why_ganesha_first_lord_tn.jpg"
+thumbnailAside = false
 +++
 
 ## Introduction
