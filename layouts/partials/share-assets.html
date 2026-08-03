@@ -91,14 +91,6 @@
 
 <script>
   (function () {
-    function isMobile() {
-      if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
-        return navigator.userAgentData.mobile;
-      }
-      return /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent) ||
-        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); // iPadOS
-    }
-
     function init() {
       var boxes = document.querySelectorAll('.post__share');
       Array.prototype.forEach.call(boxes, function (box) {
@@ -121,17 +113,12 @@
           });
         }
 
-        // Facebook has no universal-link equivalent of wa.me: sharer.php always
-        // opens in the browser, and fb:// share deep-links are no longer
-        // supported. On mobile we hand off to the OS share sheet instead, which
-        // lists the installed Facebook app. Desktop keeps the sharer.php dialog.
-        var fbBtn = box.querySelector('.share-btn--facebook');
-        if (fbBtn && navigator.share && isMobile()) {
-          fbBtn.addEventListener('click', function (e) {
-            e.preventDefault();
-            navigator.share({ title: title, url: url }).catch(function () {});
-          });
-        }
+        // NOTE ON FACEBOOK: the button deliberately uses sharer.php in the
+        // browser on every device. Handing the URL to the Facebook app (via the
+        // OS share sheet or an fb:// link) makes the app open its *Stories*
+        // composer, not a feed post, and that choice belongs to the app - it
+        // cannot be overridden from the web. sharer.php always opens the feed
+        // composer, so it is left alone here.
 
         var copyBtn = box.querySelector('.share-btn--copy');
         if (copyBtn) {
