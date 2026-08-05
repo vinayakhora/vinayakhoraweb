@@ -1,0 +1,50 @@
+@use 'modules/color_theme' as color;
+@use 'modules/variables' as var;
+
+// Product call-to-action box (e.g. "Get your customized report" with an
+// embedded Razorpay Payment Button). Used via the {{< buy-button >}}
+// shortcode inside post content.
+.buy-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  margin: 2.5em auto;
+  padding: 2em 1.75em;
+  max-width: 640px;
+  border-radius: var.$radius;
+
+  @include color.themed() {
+    background-color: color.t('primary-lighter');
+    border: color.t('border');
+    box-shadow: color.t('shadow');
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.3;
+
+    @include color.themed() {
+      color: color.t('primary');
+    }
+  }
+
+  &__desc {
+    margin: 0;
+    max-width: 46em;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center; // override the justified-prose rule on .post__content p
+
+    @include color.themed() {
+      color: color.t('primary-light');
+    }
+  }
+
+  &__action {
+    margin-top: 0.5em;
+  }
+}

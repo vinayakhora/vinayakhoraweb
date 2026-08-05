@@ -109,3 +109,114 @@
     }
   }
 }
+
+// Two-column layout for the Posts page: the year-grouped archive list on
+// one side, a standing Categories/Tags sidebar on the other. Stacked on
+// mobile, side-by-side on desktop.
+.archive__page {
+  display: flex;
+  flex-direction: column;
+
+  @include conf.desktop {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.5em;
+  }
+
+  .archive {
+    flex: 1 1 auto;
+    min-width: 0;
+
+    @include conf.desktop {
+      margin-right: 0;
+    }
+  }
+}
+
+.archive__sidebar {
+  flex: 0 0 auto;
+  width: 100%;
+  margin: 0 30px 30px;
+  padding-top: 1.5em;
+
+  @include color.themed() {
+    border-top: color.t('border');
+  }
+
+  @include conf.desktop {
+    width: 240px;
+    margin: 30px 30px 30px 0;
+    padding-top: 0;
+    padding-left: 1.5em;
+    border-top: none;
+    position: sticky;
+    top: 20px;
+
+    @include color.themed() {
+      @include conf.ltr {
+        border-left: color.t('border');
+      }
+
+      @include conf.rtl {
+        border-right: color.t('border');
+      }
+    }
+  }
+
+  &-block {
+    &:not(:last-child) {
+      margin-bottom: 1.75em;
+    }
+  }
+
+  &-heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin: 0 0 0.75em;
+
+    @include color.themed() {
+      color: color.t('primary-light');
+    }
+  }
+
+  &-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 4px 0;
+      font-size: 1.4rem;
+    }
+
+    a {
+      @include color.themed() {
+        color: color.t('primary');
+      }
+
+      &:hover {
+        @include color.themed() {
+          color: color.t('info');
+        }
+      }
+    }
+  }
+
+  &-count {
+    font-size: 1.2rem;
+
+    @include color.themed() {
+      color: color.t('primary-light');
+    }
+  }
+
+  &-cloud {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

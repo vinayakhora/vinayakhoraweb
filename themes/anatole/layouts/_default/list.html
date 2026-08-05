@@ -1,47 +1,78 @@
 {{ define "main" }}
-  <div
-    class="archive {{ with .Site.Params.doNotLoadAnimations }}
-      .
-    {{ else }}
-      animated fadeInDown
-    {{ end }}"
-  >
-    {{ range .Data.Pages.GroupByDate "2006" }}
-      <div class="archive__heading">{{ .Key }}</div>
-      {{ range .Pages }}
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            {{ with .Params.thumbnail }}
-              <a class="archive__list-thumb" href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true">
-                <img src="{{ partial "thumb-url.html" (dict "src" .) }}" alt="" loading="lazy" />
-              </a>
-            {{ end }}
-            {{ if (eq .Site.Params.disableArchiveTitleStyling true) }}
-              <a class="archive__list-title" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
-            {{ else }}
-              <a class="archive__list-title" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ upper .Title }}</a>
-            {{ end }}
-            <div class="archive__list-date">
-              {{ if isset .Site.Params "listdateformat" }}
-                {{ if .Site.Params.localizedDates }}
-                  {{ time.Format .Site.Params.listDateFormat .Date }}
-                {{ else }}
-                  {{ .Date.Format .Site.Params.listDateFormat }}
-                {{ end }}
-
+  <div class="archive__page">
+    <div
+      class="archive {{ with .Site.Params.doNotLoadAnimations }}
+        .
+      {{ else }}
+        animated fadeInDown
+      {{ end }}"
+    >
+      {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="archive__heading">{{ .Key }}</div>
+        {{ range .Pages }}
+          <ul class="archive__list">
+            <li class="archive__list-item">
+              {{ with .Params.thumbnail }}
+                <a class="archive__list-thumb" href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true">
+                  <img src="{{ partial "thumb-url.html" (dict "src" .) }}" alt="" loading="lazy" />
+                </a>
+              {{ end }}
+              {{ if (eq .Site.Params.disableArchiveTitleStyling true) }}
+                <a class="archive__list-title" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
               {{ else }}
-                {{ if .Site.Params.localizedDates }}
-                  {{ time.Format "Jan 2" .Date }}
-                {{ else }}
-                  {{ .Date.Format "Jan 2" }}
-                {{ end }}
+                <a class="archive__list-title" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ upper .Title }}</a>
+              {{ end }}
+              <div class="archive__list-date">
+                {{ if isset .Site.Params "listdateformat" }}
+                  {{ if .Site.Params.localizedDates }}
+                    {{ time.Format .Site.Params.listDateFormat .Date }}
+                  {{ else }}
+                    {{ .Date.Format .Site.Params.listDateFormat }}
+                  {{ end }}
 
+                {{ else }}
+                  {{ if .Site.Params.localizedDates }}
+                    {{ time.Format "Jan 2" .Date }}
+                  {{ else }}
+                    {{ .Date.Format "Jan 2" }}
+                  {{ end }}
+
+                {{ end }}
+              </div>
+            </li>
+          </ul>
+        {{ end }}
+
+      {{ end }}
+    </div>
+
+    {{ if or .Site.Taxonomies.categories .Site.Taxonomies.tags }}
+      <aside class="archive__sidebar">
+        {{ with .Site.Taxonomies.categories }}
+          <div class="archive__sidebar-block">
+            <h4 class="archive__sidebar-heading">{{ i18n "category" }}</h4>
+            <ul class="archive__sidebar-list">
+              {{ range $name, $taxonomy := . }}
+                <li>
+                  <a href="{{ printf "categories/%s/" ($name | urlize) | relLangURL }}">{{ $name }}</a>
+                  <span class="archive__sidebar-count">{{ len $taxonomy.Pages }}</span>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+
+        {{ with .Site.Taxonomies.tags }}
+          <div class="archive__sidebar-block">
+            <h4 class="archive__sidebar-heading">{{ i18n "tag" }}</h4>
+            <div class="archive__sidebar-cloud">
+              {{ range $name, $taxonomy := . }}
+                <a class="tag" href="{{ printf "tags/%s/" ($name | urlize) | relLangURL }}">{{ $name }}</a>
               {{ end }}
             </div>
-          </li>
-        </ul>
-      {{ end }}
-
+          </div>
+        {{ end }}
+      </aside>
     {{ end }}
   </div>
 {{ end }}

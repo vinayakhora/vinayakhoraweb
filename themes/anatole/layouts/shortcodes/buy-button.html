@@ -1,0 +1,26 @@
+{{- /*
+  Product call-to-action box with an embedded Razorpay Payment Button.
+
+  Usage:
+    {{< buy-button
+      title="Get Your Customized Mangal Dosha Report — With Remedies and Guidance"
+      description="A personalised reading of your chart's Mangal Dosha status, its real severity, applicable cancellations, and practical remedies."
+      button_id="pl_TM5koU9nhZK9sH"
+    >}}
+*/ -}}
+{{- $title := .Get "title" -}}
+{{- $desc := .Get "description" -}}
+{{- $buttonID := .Get "button_id" -}}
+<div class="buy-cta">
+  {{- with $title }}
+    <h3 class="buy-cta__title">{{ . }}</h3>
+  {{- end }}
+  {{- with $desc }}
+    <p class="buy-cta__desc">{{ . | markdownify }}</p>
+  {{- end }}
+  <div class="buy-cta__action">
+    <form>
+      <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{ $buttonID }}" async></script>
+    </form>
+  </div>
+</div>
